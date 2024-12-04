@@ -1,0 +1,6859 @@
+fileFormatVersion: 2
+guid: d5ca802f17eabe34ea5f7130e5a490af
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kino_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1326
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6ac5c0736503949a282db1a23478bd
+      internalID: 1985250928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1326
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075f275c9ae53de42878bdb409fe9821
+      internalID: 1292514443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_2
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1326
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbf374603b8ba34c9b056af0abae8fc
+      internalID: 320509750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_3
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1326
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a94fa84fb3144cc4db9ee45968d1084c
+      internalID: -285720242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_4
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1326
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b554ce7b46f39a479f89ff6a1e20838
+      internalID: 567763121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_5
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1244
+        width: 309
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7217e47c940e3244092ee549a6a43899
+      internalID: -565341640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_6
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1284
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8d3e418901ce74198e167fe7d87be7
+      internalID: -803117567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_7
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1284
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678abca534877b248bd84287deaf5487
+      internalID: 1857348928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_8
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1284
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c547e1372a44001479e365661d413391
+      internalID: 215329020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_9
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1284
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029d105cda6734243975e07a22cde760
+      internalID: -1048077488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1269
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c13afd3363417747bb552cfc613b477
+      internalID: 1649834681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_11
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1269
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1b6c4b42ff81c4ca8971bff56515a6
+      internalID: 2142162087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_12
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1269
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee7e612f39c1e949808974e58749a77
+      internalID: -417114473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_13
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1269
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c5e1abfd3005c4f8169dc40d5fdfa2
+      internalID: -2015300204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_14
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1269
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21433883575e5f24080d19b3680d7d2d
+      internalID: -360430095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_15
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1269
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e2fb26eac742a47a3a95a9ba694ca2
+      internalID: 962969019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_16
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1227
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f80a3d01954ed4eab4447d600beac9
+      internalID: -1135829433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_17
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1227
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c093504ef08a7e4cac105bfcd68b775
+      internalID: -1307733541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_18
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1227
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7565bce39ebdd0d458e8c0a555b7a518
+      internalID: 300135878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_19
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1227
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88d0a84af8a5e74089088fba455f9ab
+      internalID: 1878130945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_20
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1227
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3551b80b88db4a940b930f56a472000b
+      internalID: 313196525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_21
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1214
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9323e90b7b276b34791310bce7d97022
+      internalID: -403099673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_22
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1214
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c560a02cf3e20b746915242f246bf519
+      internalID: 1210995759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_23
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1214
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd4e2f1f9138c64396b1956a9dbae72
+      internalID: -1308669075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_24
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1214
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203b650ef2fdeca449d83c77e51ced42
+      internalID: 699040959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_25
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1213
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacc4720dcd2a914d8c37e8da4b54af2
+      internalID: 1897494368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_26
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1214
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0c2a8eb3a7baf48904d101608a9f81
+      internalID: 939607534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_27
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1214
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03d03bf16658974abe0cdab82d9e06d
+      internalID: -237439212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_28
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1155
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a205f81c6189baf42a650adb51ff2d2d
+      internalID: -1807859877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_29
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1183
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17bc46deaa37d604a8205bc3e086229b
+      internalID: -1418772829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_30
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1155
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2aff7b05d4b68469f908a961146c85
+      internalID: 1929685349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_31
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1183
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3859a0eb26092a44197b873e147f1caa
+      internalID: 617609233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_32
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1155
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b6b0e63b904a0489a347c6ee8f862f
+      internalID: 1371544593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_33
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1183
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65124e01f7e82074db1b6bded397c36d
+      internalID: -1441174419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_34
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1155
+        width: 56
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f6dfd758f70064a948b21c208be7dc
+      internalID: -658032813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_35
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1183
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544c4ea0580a69c4389237041b5160da
+      internalID: 1956996858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_36
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1155
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745ccd9e3a308ac41ad2c0222795c4b2
+      internalID: 1384283991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_37
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1183
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9ccfac126852144bf45613fa2f32fa
+      internalID: -1559151557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_38
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1155
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5437e567f718fc843a75a8f88ce39647
+      internalID: 185054281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_39
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1183
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcacc626d90ae0e4cb26cd2424d92e92
+      internalID: 169509178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_40
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1155
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74095278149d5694bbdb5df4f4e694c4
+      internalID: -1828712230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_41
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1183
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f90198e7d89d54ebd9a921e4ebfabb
+      internalID: -1693156896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_42
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1155
+        width: 56
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf5d0a66d433e44ea16637c6fa9787c
+      internalID: 1675952452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_43
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1183
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc333966f7a70ff429bf6dd6018a5639
+      internalID: -1106111935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_44
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1143
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d91a771fe0ae844aa564223e2dc596
+      internalID: 688032602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_45
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1143
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83faf1d2ea1b4c4fa3d8c4b9b5b87fc
+      internalID: -1999192948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_46
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1143
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4964c46cdc025b498f53d70bb1b5bf8
+      internalID: 496460024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_47
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1143
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6448bb2e29269f6478b8a6ca5718a350
+      internalID: -1253399782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_48
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1101
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32c349730a03a644a0bdf2131a27d71
+      internalID: 1435611479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_49
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1101
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21d2ba6634ec7e43ae78592eb3d3ea1
+      internalID: -928753005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_50
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1104
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12765fec856cf734e90f367237905779
+      internalID: 1701302992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_51
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1106
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebcad6049f8f04b4eac2f8979cf9fa23
+      internalID: -1913675120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_52
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1106
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5674ab815f5154d8f535ddee28daae
+      internalID: 1114908598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_53
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1104
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0775491a537f57448f9860a95037460
+      internalID: 106995860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_54
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1090
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff713d834080cc42a34529da067c774
+      internalID: -1407700363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_55
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1090
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7674b272860dcb14dab9b6d00c2785d3
+      internalID: 99289618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_56
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1090
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f249c15e0c0834b8522f9d74c5a602
+      internalID: 367914124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_57
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1088
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68dd34ed9d609934990b7790bdf5e510
+      internalID: 1993866577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_58
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1090
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af11e53f9ac128c4d8dd246e065abb45
+      internalID: -1149623734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_59
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1090
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6a6ecc5f3362345bd8f61354255669
+      internalID: -1759540408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_60
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1090
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3745e3625ee8a409efa463084b323b
+      internalID: -1968643210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_61
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1088
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0994df559436b9f47b7e5364421b238a
+      internalID: 485343214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_62
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1045
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30fc84e833c173499923f154ba1e1ba
+      internalID: -643589331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_63
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1045
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1e7a5863206e54db2e95c16d2ac9a3
+      internalID: -1352410400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_64
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1032
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b9ec5c6a13d4b4c915e456f1bc8d6a
+      internalID: 1359606592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_65
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1032
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985e911b33848de42a608bfa4712a5ff
+      internalID: 1074678344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_66
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1032
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16516ca6356f3634290badeb278843a5
+      internalID: -1446672298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_67
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 990
+        width: 8
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a43874fb760c547bd207a4fe645dde
+      internalID: -277478541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_68
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 990
+        width: 16
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5cd1ca6ec5d64147817d1ffeb464203
+      internalID: 543602461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_69
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 990
+        width: 60
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa0816e7670a654999f534defa92da0
+      internalID: 1200551268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_70
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 992
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1fbd85d7a0bf143b52b32511394228
+      internalID: -1088530854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_71
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 992
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9528a5dedbdb5934b97137a037e899a3
+      internalID: 366940436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_72
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1012
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918d0470040e3714697bc55bf54438c8
+      internalID: -1576751052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_73
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 1009
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd3aa0b3b3197f4ba6e308c9a92511c
+      internalID: -1139530170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_74
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 992
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ee3d60289b3cd46bd98f71073e86aa
+      internalID: 1071596850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_75
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1007
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77519576ee737f14ca39eaad9eac85d7
+      internalID: -935642176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_76
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1002
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9740d5414d6b8a447a62610e7fc23558
+      internalID: 1257862181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_77
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1001
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87228ff36839d3943a7d2684e64a3bf3
+      internalID: 535535247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_78
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 979
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9ed6491c5af0743a88556980334346
+      internalID: 781252960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_79
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 979
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe35ca73cfea5f4991dbe11f1a55cbc
+      internalID: 304479586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_80
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 979
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889194343f72f1a49ab15fffe17ecd3c
+      internalID: -1628424224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_81
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 979
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c006f4610efd744baf4d53b6c589a6c
+      internalID: 10912005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_82
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 939
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fe0327835525b49affbe2dc6f94a67
+      internalID: 934210967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_83
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 939
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbfc71152e8d3774f894a8cdb8381824
+      internalID: 14725237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_84
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 939
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90d3ccbc170fdb42b5a073c54288955
+      internalID: -2114218971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_85
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 939
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868bdc5bd7334554b871cac4b4f37a78
+      internalID: -1654097863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_86
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 939
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613c81a5fadf9a7429a5055fc47fcc6c
+      internalID: -225715729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_87
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 939
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c567ca20a1648aa41a668c231e1c7131
+      internalID: 144714098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_88
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 939
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d92e4c3c3453ad4ea76edd29b821363
+      internalID: 801101588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_89
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 939
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff8449241613ac49b4cfd39d0c61b9c
+      internalID: 355837188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_90
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 929
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4bd49b82f2c30845b632a1970ac7937
+      internalID: -1284374774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_91
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 929
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901f4ea84959d5248ab3df76a415c116
+      internalID: 1970571979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_92
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 929
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079dafdc0e68dcb48ae9b7caa3b4dca6
+      internalID: -871233438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_93
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 879
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31fcf37935268ae4a8bdb7a222f49d31
+      internalID: -594469660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_94
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 909
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97adde59cedd2ef42a55b937c9729128
+      internalID: -27670089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_95
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 879
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa938bab4837f2146a77cbafc2a6e386
+      internalID: -2095785131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_96
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 868
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482a0cf727e14a143b67ad8a9e7ab373
+      internalID: 1188674032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_97
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 868
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53dce0b6a8e1f0c44b70a3644a7cc136
+      internalID: 1470722795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_98
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 868
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd82c5d46e5466c4999b1d0a6ad1fc65
+      internalID: -6744604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_99
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 866
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3e6ea862ab3d34aa0a8acc2d8414a0
+      internalID: -1335705265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_100
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 866
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb9d00d21d31f34fbe10cde2c15eb30
+      internalID: -1904891999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_101
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 845
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d050cf058752d4392cb5233edc2326
+      internalID: -965065133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_102
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 850
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade742f72c25bd84aadb437cd3627fe4
+      internalID: -1520453425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_103
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 811
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7acf96f008ff7d40ab227c0117428a9
+      internalID: -379774115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_104
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 847
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76bcaa8751d81df4a883a2f0c558b825
+      internalID: -534491152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_105
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 847
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4bcefbc51ea8842b7f014f0fcdfcc3
+      internalID: -1079385074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_106
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 846
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a3651fa2cd8244e856c1aeb7a44c88
+      internalID: -1700334454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_107
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 810
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b5808bf21ae3d459a9abdbcf2e8363
+      internalID: 934530704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_108
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 810
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16de573c08864cf4aa3a2f81cdb8e21f
+      internalID: 1165799579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_109
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 848
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3b3f614ca62cb46b6c4311379521fd
+      internalID: -1469965686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_110
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 842
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612506ad87bb1b246b6c52a1841df809
+      internalID: 370335728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_111
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 849
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34eeeaa083c332c4db0f3c6224a889b3
+      internalID: -777452844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_112
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 811
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9c7d5028be9b04c965f1c1623b4b26
+      internalID: -994334498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_113
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 811
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa142fa78b3f5c84f9447244c6c6e9d3
+      internalID: 346138220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_114
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 811
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d270b1a204fbf843b4855afcbaa02ad
+      internalID: -975004615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_115
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 811
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef851f1ee31802340a634f3a5a3bc4a4
+      internalID: -181169187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_116
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 810
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a12e18d5f203074caa47a380da9b87e
+      internalID: -1068399199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_117
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 801
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8480808b3fac3e4d922f4f0d40f5240
+      internalID: -1958168506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_118
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 801
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b122d9011d40e469d66e243fd9f81b
+      internalID: -955477020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_119
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 801
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a27b541a63dc8544a261c5dc3ff628c
+      internalID: -1302434157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_120
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 801
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5338ba4bf6178464bbe81ee04516ab22
+      internalID: -1971442291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_121
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 779
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b80034b41e51d34c8f2151a2233f90d
+      internalID: -1543465249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_122
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 777
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42684123c43669744b088ea718449f25
+      internalID: 1001591581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_123
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 778
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4439e60f8315c46a467646f206f461
+      internalID: 1001212539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_124
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 776
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475ad158c2d84d84e8992ec298236c7c
+      internalID: -398145049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_125
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 780
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa93131fe0c6fa2409f8f21519480226
+      internalID: -320667219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_126
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 778
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a57c3cf84a00d48b2daa7cec316e28
+      internalID: 2117049022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_127
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 785
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464fb2f7377b0e24190b1fdaec559281
+      internalID: 1718229484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_128
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 790
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c60751c421fac45a172df3efab8e02
+      internalID: -978520260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_129
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 783
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f9f923a220b134ebf83334337134fc
+      internalID: -1832345534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_130
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 751
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bd4a7df31ebaa49a6692a507f9c0e8
+      internalID: -1933235103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_131
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 751
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08183144204bde348afb58402335802c
+      internalID: 1045864376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_132
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 751
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6060eb69e2ad26749aabb98c3533bd30
+      internalID: -553648282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_133
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 751
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03cdba24b955c19458e97973c18bf474
+      internalID: -1508865026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_134
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 738
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf05d615fc9e6e8428973e0f146f0629
+      internalID: -199684277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_135
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 736
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb97c0f0f99c99246adb5a3ea4f15626
+      internalID: -1151979987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_136
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 695
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447b949c2c2342b4d9ebd217c23730fe
+      internalID: 698984939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_137
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 703
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5a2d5af14ddc84a89246f971e13d73
+      internalID: 327307801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_138
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 695
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5129fe3f6e30046b008197c751d3de
+      internalID: -744789252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_139
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 695
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce72c2abcd261c54782a6e5aab130f53
+      internalID: 1928931521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_140
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 695
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaffe08d6db93fb40aae7470b427e5bc
+      internalID: -1196271297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_141
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 695
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d345a963c2d23234b8351b6198128f7f
+      internalID: 590569595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_142
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 695
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fd15b1541f5f94bb3a5792030be764
+      internalID: -1845993074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_143
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 694
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a83bfec8d6640a40b3c5be01764e43d
+      internalID: 1066748538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_144
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 702
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c7ea64422b4344d9d6ca8f22c4cf36
+      internalID: 414102342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_145
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 694
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb431d3ba1ca674bb2c879fc76695e2
+      internalID: -778272329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_146
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 694
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54dd336b1d0255143b039b6e767f0de9
+      internalID: 617558816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_147
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 694
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4bce22566f1174f81a002cdf6ee6dd
+      internalID: -1075559407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_148
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 694
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c946049c130c241945949ea7c59a87
+      internalID: -245252790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_149
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 694
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ece994a1dd5f646967f1d3c09219ab
+      internalID: -1724266222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_150
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 698
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a90b1487474ad4d8f4fedab2935b83
+      internalID: -905179055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_151
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 695
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58357ba61e6950a4fa5b2cd5df92d5de
+      internalID: 1735575102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_152
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 697
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e0891ddbdc7b3479017bfa95b532d4
+      internalID: 1431297413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_153
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 694
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b269e2facccf14ab0e055ab18ad632
+      internalID: -1361342293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_154
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 682
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9979b4596f60f8e41a991957253b153b
+      internalID: 1393680108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_155
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 682
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54673b4c9fa31c54d98e744ed94085c9
+      internalID: -651436452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_156
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 680
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea3d22069882854e9989a3dae65e8c3
+      internalID: 770441766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_157
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 680
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3d069f8acae624eb26de7c3529a7ef
+      internalID: -383387167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_158
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 634
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c1a38605a21d6449538e4fd834d52f
+      internalID: -1497706012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_159
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 631
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f569b663d423346868461fda49ecf1
+      internalID: -1789539057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_160
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 630
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10dd50ddc1af7b48a6d7b9912572d97
+      internalID: 2103735834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_161
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 630
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cbc65a3b68c4ba48b278372861dd013
+      internalID: 263619049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_162
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 629
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1adcdb6f51e4ef4b939b9abb7c6348a
+      internalID: -327550326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_163
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 634
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58abb322bd3d05141a3a24923626ea3c
+      internalID: 2036671028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_164
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 624
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a3a9d2f91b7024590bdb4763a4dea1
+      internalID: -1983904544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_165
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 668
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225fe378d919a254cb2bd75fcd6b2fe9
+      internalID: 1829922887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_166
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 634
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbff1e4bf610dd746ae563a93f387a9c
+      internalID: -1365258099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_167
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 660
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1fff4eff0fae664d957f95fd6f40c15
+      internalID: -1409579975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_168
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 653
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca42f2fc368ef4a4387c459291c50b31
+      internalID: 2006732809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_169
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 640
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e674d0e76ea7d4f47aa3218464c1b34d
+      internalID: 1331767789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_170
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 641
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5545f5e5774606c40a336d815c056eb5
+      internalID: -1636290893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_171
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 639
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d64b1a24c54f24997b89617c644708
+      internalID: 1509244904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_172
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 633
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 140d66e679addf9479dfce97ee077fb0
+      internalID: 1969226543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_173
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 625
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f596005ebb371394281e5a1f8b62cfbc
+      internalID: 563039098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_174
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 636
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88fce34ce2933145abf218af7fc99cc
+      internalID: -270166604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_175
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 622
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8e646d8ff4e0345aac092c15ce73a9
+      internalID: -1115293577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_176
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 557
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34980df5530a5874382f543cef233f62
+      internalID: 1962669163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_177
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 557
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c25a7e634ef5849bb54553008aff8a
+      internalID: 876372962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_178
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 557
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3be13844aa436d4680b9d7864bb42ae
+      internalID: -1825268139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_179
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 557
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3ce143343a5244d95d22c47a89e5b2
+      internalID: 1539812973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_180
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 557
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a494055441b94940a97daa5c423a3cd
+      internalID: -2126795307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_181
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 557
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0537234a81d02e54a9af641cbf130b18
+      internalID: -1588736335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_182
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 557
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5529fc34d36e3409fb88424101ba0f
+      internalID: 583221974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_183
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 557
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259c3f3f719422348acba1dd53998e03
+      internalID: 1515996104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_184
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 553
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c9df878d622064eaba38781094b453
+      internalID: 2023247650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_185
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 555
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18788a2abc12b4e48a6158ab6e5f2f46
+      internalID: -1882139256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_186
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 553
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9cd6c9253ddd4f48b4431e8a353e2f3
+      internalID: 469325657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_187
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 542
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb980347745e124eaa46f138819cda3
+      internalID: 592146236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_188
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 542
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a900490b2806743894cedd71d93b9b
+      internalID: 1003470177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_189
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 542
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50fbf47814cf8d64f932f318ce35c0f6
+      internalID: -616797953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_190
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 542
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7372f98b43724014ab7bc3ad896d7bc5
+      internalID: -835493971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_191
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 540
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea776252b670ab743972b407fb139bf2
+      internalID: -2125506371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_192
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 491
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292927c0a4e7f564091f36222b1faa1e
+      internalID: 796786114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_193
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 491
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a016eee88cab5c0408560002cc7e8458
+      internalID: 92496022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_194
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 491
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940eb112465c56f42a90574fba0aa19b
+      internalID: -189470440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_195
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 517
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda7ee17e8d31a24e837c4492dbefe42
+      internalID: 1654290166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_196
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 519
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a083c4c1a4bebe446b12f9e232683f7e
+      internalID: -1146664411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_197
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 523
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50e6002ed5269e4dbf2350f0c94af0b
+      internalID: -1016102581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_198
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 520
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed25b31a77265b742a1d3421165479e1
+      internalID: -1391165390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_199
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 522
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6823ae393f9b94389cab18a8596f08
+      internalID: 178762180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_200
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 526
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c55fd909a7a6941a3a500c5ace9127
+      internalID: -591864084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_201
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 491
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc8e87f1277ef44d997d0a5b720fbe8
+      internalID: 1792927991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_202
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 514
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9a907d6a641d34bb1adbba0525531f
+      internalID: -1587085711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_203
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 491
+        width: 43
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7537d5bd72142204fbdf0fd7bd429884
+      internalID: 1061852636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_204
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 514
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1477f440691794896827b5bbe47f7e
+      internalID: -700084474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_205
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 491
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578360c06e1fb674aaf4c938084a25ab
+      internalID: -726021747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_206
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 517
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2cdd0e9b09718409805f77e87002bf
+      internalID: 1569447867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_207
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 491
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a55812c95d01524aac1751e5590159e
+      internalID: 1319312498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_208
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 479
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9591172449cc47644818b01891bc8c2d
+      internalID: 825463580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_209
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 479
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42745236846c8884fa9464554471f488
+      internalID: 3630243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_210
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 479
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9476cc0c978a184299ce2bd3ced1476
+      internalID: 1532486275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_211
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 477
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7349b13f581c14d9d8c28bf9a13d83
+      internalID: -1583558592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_212
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 416
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d425dd36022e7214ebc50e25ad987a2e
+      internalID: 801210965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_213
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 450
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4debc9cd2e97d024d9fbc0361510fa0c
+      internalID: 271697158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_214
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 451
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe99f563746e5794a8734aaeae0a77ac
+      internalID: 695354220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_215
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 458
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2839970b9bac61944ae101e4d37d856b
+      internalID: -1403774662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_216
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 416
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b1a33ca267fd0449dbcc66f615b8e1
+      internalID: 44071043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_217
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 416
+        width: 48
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76029f662141c034b9fd6fb3f276b145
+      internalID: 1832016153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_218
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 416
+        width: 48
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5f6a5a849c169438f3cde18322b050
+      internalID: 1337199983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_219
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 416
+        width: 48
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baad78990c3f96e49b28c96ea6e9832b
+      internalID: 401415736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_220
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 416
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c79277a153959046ab5c6486aa44daa
+      internalID: 272849853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_221
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 405
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313cb1612fc756d4fa608b0a9a20b070
+      internalID: -1428663361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_222
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 405
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9044370400507a64c8c8b672f9d31a55
+      internalID: 869709126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_223
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 405
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50f095cd1797c64da18f6a195830747
+      internalID: 1251810886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_224
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 405
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344f95f18fcba214e8ef4897dc3d4e82
+      internalID: 1114646452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_225
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 405
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00d640f04fa8994ca71aaf2c94367b5
+      internalID: -769312458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_226
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 405
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874f2b5a8e96f8549832018e94a37698
+      internalID: 1315074220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_227
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 405
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1a56535c710ce47a6223d132637768
+      internalID: -1212260851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_228
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 357
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e1794ccb7f16b4ab5d5733fb930a49
+      internalID: 1590487693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_229
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 357
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004939ecf25d47c4cb5ce5a1a8f70241
+      internalID: -428782375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_230
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 357
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426c8f2c7be131740b50384fbea51c32
+      internalID: -1364052832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_231
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 357
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b611294c13f3544ae6a1d73a7f2136
+      internalID: 308680938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_232
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 357
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222eb30ae38ce2346be92d571ce44c7c
+      internalID: -816686629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_233
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 357
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ee159e492c28146b98a5224dbee392
+      internalID: 555125647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_234
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 357
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcf696475fcf9947a2da7c63194fd59
+      internalID: 769524292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_235
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 357
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6718be7aae5f0c846b0c09c7581d6800
+      internalID: -970793841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_236
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 346
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05991ae7e09fcb943835d039b2abe89e
+      internalID: -1096457494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_237
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 346
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305aa4857d89ac94d836d8164b39a98c
+      internalID: 2056645677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_238
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 346
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48cc045ebceac141a360069fffb9b1f
+      internalID: 1176372883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_239
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 346
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469726161971eca4f99519fbd0b310fe
+      internalID: 1578337099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_240
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 304
+        width: 52
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac752578c93d5104c848fca69fa09980
+      internalID: -1408074053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_241
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 304
+        width: 52
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a004bdc3afb83a348bf7610cda053824
+      internalID: 194463117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_242
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 304
+        width: 52
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caed03db0ff700e4593fb3b1eec5a39a
+      internalID: 632356059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_243
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 304
+        width: 52
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8536637087ba644bb049444bf11e4f
+      internalID: -1689271572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_244
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 304
+        width: 52
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f7836d7ec9f1347b30effd31f3eca6
+      internalID: 20093629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_245
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 304
+        width: 52
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824661207b584124c97b0436e4ac789a
+      internalID: -1272698579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_246
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 304
+        width: 52
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda4554b4c2416e4a9e1708195cb7e12
+      internalID: 1405284185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_247
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 304
+        width: 52
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3ecc49f8b54394f94b67321a293360
+      internalID: -751888120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_248
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 304
+        width: 52
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e3ccbfcbe972e40b2770bc53f77955
+      internalID: -897748394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_249
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 304
+        width: 52
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ace4c07158126458906548080fa03d
+      internalID: -517715200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_250
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 292
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24e56ed0bc5dd4408eb7007996c05d2
+      internalID: -1080198789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_251
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 292
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e3468328b85e44196a38f4031d986b
+      internalID: 368878072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_252
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 292
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0f3bfbcd7345e469e60a0437da5d66
+      internalID: -1051335056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_253
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 290
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a434ff59278ea0440919c9bd7d1a23b3
+      internalID: -2082823881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_254
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 250
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b74720dc2063a5468708b22b5007b91
+      internalID: 526282317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_255
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 250
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14114bdb0646b7d44989be2a5df549bc
+      internalID: 1829541996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_256
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 237
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11baa6fb05eeaa44db1a23095e25aabf
+      internalID: 2057496929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_257
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 237
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5c65c1f9e01294990048f604ef25be
+      internalID: -60373221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_258
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 237
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33caa7768ae37d4ebafa488ecf7bce5
+      internalID: 1801982300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_259
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 237
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38bf9460a8e4d2d489859c50782e4890
+      internalID: 1578753690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_260
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 237
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2793009315ba545af8a5042b6fcc14
+      internalID: 595225488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_261
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 237
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebadb980a57dd104481c240e910a42a2
+      internalID: 861771697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_262
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 237
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e300ee576e4924d811b953f827333d
+      internalID: -1489044152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_263
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 187
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2f1665023eda040a4a90d47e45ba53
+      internalID: 2138239089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_264
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 194
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f490f5a1610a04d8b2440f2556b5b3
+      internalID: 2254131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_265
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 190
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee99edfefb5deb04e944771aa56dc449
+      internalID: 1089166037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_266
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 183
+        width: 56
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df36f8fa1699e084e87027938a108eeb
+      internalID: -1047306762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_267
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 181
+        width: 60
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3afa9c9431de9e24fbcb86af78899ba4
+      internalID: 1232030776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_268
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 218
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e178039ead43ee438aec1fe84cb39e0
+      internalID: 535020296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_269
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 180
+        width: 49
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219c1a426fa400843b3d2e7063bd4187
+      internalID: -1740868379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_270
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 211
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54dba356b795794428c564011f84cf4f
+      internalID: -790398463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_271
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 179
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b1747f0fb96ea4986f1215dd5418f9
+      internalID: 776775361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_272
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 177
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8fe29d4d2e9ed4e97c9c05793c46d6
+      internalID: -1570009537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_273
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 177
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d690fce7922e9f24098dfb51def48e25
+      internalID: 279143581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_274
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 177
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30bbba637a5d04f48b905df27b37c660
+      internalID: -833881105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_275
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 177
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fefffb83b0d57e947b52ea552cff7e10
+      internalID: 1785985393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_276
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 197
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20db4e055b9e03544a0c07dc30597808
+      internalID: -750558824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_277
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 114
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a474460bbe38274590c68c20aaf189c
+      internalID: 1969767547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_278
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 114
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43074b6559cf63e47b22bf44d0ad8b70
+      internalID: -838174257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_279
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 114
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9936a9af96a8a6441a5a752fef5c3a91
+      internalID: 2046980999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_280
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 118
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0a5033e12255141b406f3160798176
+      internalID: 133335535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_281
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 116
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba3b9558f571a1489b5ef4ec90eebe5
+      internalID: -1684744975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_282
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 114
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cffa47add9eea9346b2934b3d8dd531d
+      internalID: 1048992034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_283
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 114
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cdf9397538113c41896a58a27cacfd5
+      internalID: -1174654721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_284
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 114
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1943ba0c6026b46479516b748ee3005b
+      internalID: -1773785472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_285
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 114
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f3f84e48795e945baffd9ad0d07ffa
+      internalID: -153015807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_286
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 114
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4540c66ee9e3c46b75dd116e1447e1
+      internalID: -817873049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_287
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 114
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad6072ba39dec943a7e3418ee47a026
+      internalID: -322334728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_288
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 60
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c35cb045dc45644a83707a332a95af
+      internalID: -798296606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_289
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 56
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e56fe3cb003aef45b7a362692dcd649
+      internalID: 510183158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_290
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 98
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5709a164fc2224d94d5f864b6ce8df
+      internalID: -1095873526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_291
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 103
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174a2a54662fef84489fd32b81b3b9b5
+      internalID: 1305066567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_292
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 98
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5bd2c97db3efea4e9c82cef221391ee
+      internalID: -787817014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_293
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 61
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256e659893f5cbd448767431264638b0
+      internalID: 970497205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_294
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 51
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7009523415642ba43b7c56cae4e4d6a2
+      internalID: 1244339507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_295
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 90
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b406002e91c6f53408002adb37141320
+      internalID: -1591619531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_296
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 85
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc485b1bdebda3248ad254b5ea53058a
+      internalID: -630683838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_297
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 48
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de99f74d0cf2ab4ba59343b8ba1970c
+      internalID: -1091212355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_298
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 39
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca12a4a1139248d49adffc889e6c5f30
+      internalID: -1639661591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_299
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 39
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e3d3216e977e040bd54b1dfea72279
+      internalID: -1255112614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_300
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 39
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71f9484b09524548b5dffe72de341bc
+      internalID: 1211994680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_301
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 39
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58e410537ae04248a1da0cb5e93dafa
+      internalID: -301634015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_302
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 2
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1586fd487078e874286f87857d12a3f7
+      internalID: -72481849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_303
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 2
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6eb149f37e3324f8cdd6d95b0cdc97
+      internalID: -342481909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_304
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 4
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b11c6745e75c1246a3ed483666d4394
+      internalID: 1700010208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kino_305
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 7
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff122ca2d44aaf499388498ddd59ee1
+      internalID: 1085114744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Kino_0: 1985250928
+      Kino_1: 1292514443
+      Kino_10: 1649834681
+      Kino_100: -1904891999
+      Kino_101: -965065133
+      Kino_102: -1520453425
+      Kino_103: -379774115
+      Kino_104: -534491152
+      Kino_105: -1079385074
+      Kino_106: -1700334454
+      Kino_107: 934530704
+      Kino_108: 1165799579
+      Kino_109: -1469965686
+      Kino_11: 2142162087
+      Kino_110: 370335728
+      Kino_111: -777452844
+      Kino_112: -994334498
+      Kino_113: 346138220
+      Kino_114: -975004615
+      Kino_115: -181169187
+      Kino_116: -1068399199
+      Kino_117: -1958168506
+      Kino_118: -955477020
+      Kino_119: -1302434157
+      Kino_12: -417114473
+      Kino_120: -1971442291
+      Kino_121: -1543465249
+      Kino_122: 1001591581
+      Kino_123: 1001212539
+      Kino_124: -398145049
+      Kino_125: -320667219
+      Kino_126: 2117049022
+      Kino_127: 1718229484
+      Kino_128: -978520260
+      Kino_129: -1832345534
+      Kino_13: -2015300204
+      Kino_130: -1933235103
+      Kino_131: 1045864376
+      Kino_132: -553648282
+      Kino_133: -1508865026
+      Kino_134: -199684277
+      Kino_135: -1151979987
+      Kino_136: 698984939
+      Kino_137: 327307801
+      Kino_138: -744789252
+      Kino_139: 1928931521
+      Kino_14: -360430095
+      Kino_140: -1196271297
+      Kino_141: 590569595
+      Kino_142: -1845993074
+      Kino_143: 1066748538
+      Kino_144: 414102342
+      Kino_145: -778272329
+      Kino_146: 617558816
+      Kino_147: -1075559407
+      Kino_148: -245252790
+      Kino_149: -1724266222
+      Kino_15: 962969019
+      Kino_150: -905179055
+      Kino_151: 1735575102
+      Kino_152: 1431297413
+      Kino_153: -1361342293
+      Kino_154: 1393680108
+      Kino_155: -651436452
+      Kino_156: 770441766
+      Kino_157: -383387167
+      Kino_158: -1497706012
+      Kino_159: -1789539057
+      Kino_16: -1135829433
+      Kino_160: 2103735834
+      Kino_161: 263619049
+      Kino_162: -327550326
+      Kino_163: 2036671028
+      Kino_164: -1983904544
+      Kino_165: 1829922887
+      Kino_166: -1365258099
+      Kino_167: -1409579975
+      Kino_168: 2006732809
+      Kino_169: 1331767789
+      Kino_17: -1307733541
+      Kino_170: -1636290893
+      Kino_171: 1509244904
+      Kino_172: 1969226543
+      Kino_173: 563039098
+      Kino_174: -270166604
+      Kino_175: -1115293577
+      Kino_176: 1962669163
+      Kino_177: 876372962
+      Kino_178: -1825268139
+      Kino_179: 1539812973
+      Kino_18: 300135878
+      Kino_180: -2126795307
+      Kino_181: -1588736335
+      Kino_182: 583221974
+      Kino_183: 1515996104
+      Kino_184: 2023247650
+      Kino_185: -1882139256
+      Kino_186: 469325657
+      Kino_187: 592146236
+      Kino_188: 1003470177
+      Kino_189: -616797953
+      Kino_19: 1878130945
+      Kino_190: -835493971
+      Kino_191: -2125506371
+      Kino_192: 796786114
+      Kino_193: 92496022
+      Kino_194: -189470440
+      Kino_195: 1654290166
+      Kino_196: -1146664411
+      Kino_197: -1016102581
+      Kino_198: -1391165390
+      Kino_199: 178762180
+      Kino_2: 320509750
+      Kino_20: 313196525
+      Kino_200: -591864084
+      Kino_201: 1792927991
+      Kino_202: -1587085711
+      Kino_203: 1061852636
+      Kino_204: -700084474
+      Kino_205: -726021747
+      Kino_206: 1569447867
+      Kino_207: 1319312498
+      Kino_208: 825463580
+      Kino_209: 3630243
+      Kino_21: -403099673
+      Kino_210: 1532486275
+      Kino_211: -1583558592
+      Kino_212: 801210965
+      Kino_213: 271697158
+      Kino_214: 695354220
+      Kino_215: -1403774662
+      Kino_216: 44071043
+      Kino_217: 1832016153
+      Kino_218: 1337199983
+      Kino_219: 401415736
+      Kino_22: 1210995759
+      Kino_220: 272849853
+      Kino_221: -1428663361
+      Kino_222: 869709126
+      Kino_223: 1251810886
+      Kino_224: 1114646452
+      Kino_225: -769312458
+      Kino_226: 1315074220
+      Kino_227: -1212260851
+      Kino_228: 1590487693
+      Kino_229: -428782375
+      Kino_23: -1308669075
+      Kino_230: -1364052832
+      Kino_231: 308680938
+      Kino_232: -816686629
+      Kino_233: 555125647
+      Kino_234: 769524292
+      Kino_235: -970793841
+      Kino_236: -1096457494
+      Kino_237: 2056645677
+      Kino_238: 1176372883
+      Kino_239: 1578337099
+      Kino_24: 699040959
+      Kino_240: -1408074053
+      Kino_241: 194463117
+      Kino_242: 632356059
+      Kino_243: -1689271572
+      Kino_244: 20093629
+      Kino_245: -1272698579
+      Kino_246: 1405284185
+      Kino_247: -751888120
+      Kino_248: -897748394
+      Kino_249: -517715200
+      Kino_25: 1897494368
+      Kino_250: -1080198789
+      Kino_251: 368878072
+      Kino_252: -1051335056
+      Kino_253: -2082823881
+      Kino_254: 526282317
+      Kino_255: 1829541996
+      Kino_256: 2057496929
+      Kino_257: -60373221
+      Kino_258: 1801982300
+      Kino_259: 1578753690
+      Kino_26: 939607534
+      Kino_260: 595225488
+      Kino_261: 861771697
+      Kino_262: -1489044152
+      Kino_263: 2138239089
+      Kino_264: 2254131
+      Kino_265: 1089166037
+      Kino_266: -1047306762
+      Kino_267: 1232030776
+      Kino_268: 535020296
+      Kino_269: -1740868379
+      Kino_27: -237439212
+      Kino_270: -790398463
+      Kino_271: 776775361
+      Kino_272: -1570009537
+      Kino_273: 279143581
+      Kino_274: -833881105
+      Kino_275: 1785985393
+      Kino_276: -750558824
+      Kino_277: 1969767547
+      Kino_278: -838174257
+      Kino_279: 2046980999
+      Kino_28: -1807859877
+      Kino_280: 133335535
+      Kino_281: -1684744975
+      Kino_282: 1048992034
+      Kino_283: -1174654721
+      Kino_284: -1773785472
+      Kino_285: -153015807
+      Kino_286: -817873049
+      Kino_287: -322334728
+      Kino_288: -798296606
+      Kino_289: 510183158
+      Kino_29: -1418772829
+      Kino_290: -1095873526
+      Kino_291: 1305066567
+      Kino_292: -787817014
+      Kino_293: 970497205
+      Kino_294: 1244339507
+      Kino_295: -1591619531
+      Kino_296: -630683838
+      Kino_297: -1091212355
+      Kino_298: -1639661591
+      Kino_299: -1255112614
+      Kino_3: -285720242
+      Kino_30: 1929685349
+      Kino_300: 1211994680
+      Kino_301: -301634015
+      Kino_302: -72481849
+      Kino_303: -342481909
+      Kino_304: 1700010208
+      Kino_305: 1085114744
+      Kino_31: 617609233
+      Kino_32: 1371544593
+      Kino_33: -1441174419
+      Kino_34: -658032813
+      Kino_35: 1956996858
+      Kino_36: 1384283991
+      Kino_37: -1559151557
+      Kino_38: 185054281
+      Kino_39: 169509178
+      Kino_4: 567763121
+      Kino_40: -1828712230
+      Kino_41: -1693156896
+      Kino_42: 1675952452
+      Kino_43: -1106111935
+      Kino_44: 688032602
+      Kino_45: -1999192948
+      Kino_46: 496460024
+      Kino_47: -1253399782
+      Kino_48: 1435611479
+      Kino_49: -928753005
+      Kino_5: -565341640
+      Kino_50: 1701302992
+      Kino_51: -1913675120
+      Kino_52: 1114908598
+      Kino_53: 106995860
+      Kino_54: -1407700363
+      Kino_55: 99289618
+      Kino_56: 367914124
+      Kino_57: 1993866577
+      Kino_58: -1149623734
+      Kino_59: -1759540408
+      Kino_6: -803117567
+      Kino_60: -1968643210
+      Kino_61: 485343214
+      Kino_62: -643589331
+      Kino_63: -1352410400
+      Kino_64: 1359606592
+      Kino_65: 1074678344
+      Kino_66: -1446672298
+      Kino_67: -277478541
+      Kino_68: 543602461
+      Kino_69: 1200551268
+      Kino_7: 1857348928
+      Kino_70: -1088530854
+      Kino_71: 366940436
+      Kino_72: -1576751052
+      Kino_73: -1139530170
+      Kino_74: 1071596850
+      Kino_75: -935642176
+      Kino_76: 1257862181
+      Kino_77: 535535247
+      Kino_78: 781252960
+      Kino_79: 304479586
+      Kino_8: 215329020
+      Kino_80: -1628424224
+      Kino_81: 10912005
+      Kino_82: 934210967
+      Kino_83: 14725237
+      Kino_84: -2114218971
+      Kino_85: -1654097863
+      Kino_86: -225715729
+      Kino_87: 144714098
+      Kino_88: 801101588
+      Kino_89: 355837188
+      Kino_9: -1048077488
+      Kino_90: -1284374774
+      Kino_91: 1970571979
+      Kino_92: -871233438
+      Kino_93: -594469660
+      Kino_94: -27670089
+      Kino_95: -2095785131
+      Kino_96: 1188674032
+      Kino_97: 1470722795
+      Kino_98: -6744604
+      Kino_99: -1335705265
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
