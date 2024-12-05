@@ -4,53 +4,72 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
+    public Transform shootPoint;
+    [Header("Bullet")]
     public GameObject bulletPrefab;
-    public GameObject bressPrefab;
-    public GameObject player;
+    public GameObject bress;
+
+    [Header("Animation")]
     [SerializeField] GameObject kino;
-    Animator anim;
-    public float decreaseMp = 100.0f;
-    public float coolTime = 0.5f;
-    float maxCoolTime;
+    Animator animator;
+
+    [Header("Player Status")]
+    
     bool shootBullet = false;
+    PlayerControl player;
     
     private void Start()
     {
-        anim = kino.GetComponent<Animator>();
-        maxCoolTime = coolTime;
+        player = GetComponent<PlayerControl>();
+        animator = kino.GetComponent<Animator>();
     }
     void Update()
     {
-        if(shootBullet)
+        if(player.playerHp > 0)
         {
-            coolTime -= Time.deltaTime;
-            if(coolTime <= 0.0f)
+            BulletCool();
+            Active();
+            if (animator.GetBool("IsAttack"))
             {
-                coolTime = maxCoolTime;
+                player.playerMp -= player.decreaseMp * Time.deltaTime;
+            }
+        }
+        else
+        {
+            animator.SetBool("IsAttack", false);
+            bress.SetActive(false);
+        }
+    }
+    void BulletCool()
+    {
+        if (shootBullet)
+        {
+            player.coolTime -= Time.deltaTime;
+            if (player.coolTime <= 0.0f)
+            {
+                player.coolTime = player.maxCoolTime;
                 shootBullet = false;
             }
         }
-        if(Input.GetMouseButtonDown(0) && !shootBullet)
+    }
+    void Active()
+    {
+        if (Input.GetMouseButtonDown(0) && !shootBullet)
         {
             SoundManager.sInstance.PlaySFXPlayer(SoundManager.PlayerSFX.Attack);
-            Instantiate(bulletPrefab, transform.position, transform.rotation);
+            Instantiate(bulletPrefab, shootPoint.transform.position, shootPoint.transform.rotation);
             shootBullet = true;
         }
-        else if (Input.GetMouseButtonDown(1) && player.GetComponent<Player2D>().playerMp > 0)
+        else if (Input.GetMouseButtonDown(1) && player.playerMp > 0)
         {
             SoundManager.sInstance.PlaySFXPlayer(SoundManager.PlayerSFX.Attack);
-            anim.SetBool("IsAttack", true);
-            bressPrefab.SetActive(true);
+            animator.SetBool("IsAttack", true);
+            bress.SetActive(true);
         }
-        else if (Input.GetMouseButtonUp(1) || player.GetComponent<Player2D>().playerMp <= 0)
-        { 
-            anim.SetBool("IsAttack", false);
-            bressPrefab.SetActive(false);
-        }
-        
-        if(anim.GetBool("IsAttack"))
+        else if (Input.GetMouseButtonUp(1) || player.playerMp <= 0)
         {
-            player.GetComponent<Player2D>().playerMp -= decreaseMp * Time.deltaTime;
+            animator.SetBool("IsAttack", false);
+            bress.SetActive(false);
         }
     }
 }

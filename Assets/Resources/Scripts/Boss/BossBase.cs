@@ -1,18 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-public enum BossState
+public class BossBase 
 {
-    Idle,
-    Move,
-    Attack,
-    Death
-}
-public interface IActive
-{
-    BossState Active();
-}
-public class BossBase
-{
-    public virtual void Active(BossStateControl manager , Animator animator) { }
+    public float deltaTime = 0.0f;
+    public virtual void Active(BossStateControl manager , BossProfile profile) { }
 }

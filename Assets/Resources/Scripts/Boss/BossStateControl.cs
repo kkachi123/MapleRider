@@ -4,30 +4,35 @@ using UnityEngine;
 
 public class BossStateControl : MonoBehaviour
 {
-    [HideInInspector] public BossState state;
-    
-    IActive[] actives = new IActive[4];
-
-    Animator animator;
-    public float hp = 1000.0f;
-
-    void Awake()
+    BossBase action;
+    BossProfile profile;
+    void Start()
     {
-        animator = GetComponent<Animator>();
-        state = BossState.Move;
-        actives[0] = GetComponent<BossIdle>();
-        actives[1] = GetComponent<BossMove>();
-        actives[2] = GetComponent<BossAttack>();
-        actives[3] = GetComponent<BossDeath>();
+        profile = GetComponent<BossProfile>();
+        action = new BossMove();
     }
+
     void Update()
     {
-        if (state == BossState.Death) return;
-        if(hp <= 0.0f && state != BossState.Death)
+        if (!GameManager.Instance.bGameOver)
         {
-            state = BossState.Death;
-            animator.SetBool("Death", true);
+            if (profile.hp <= 0.0f)
+                ChangeState(new BossDeath());
+            else
+                TransitionState();
         }
-        state = actives[(int)state].Active();
+    }
+
+    public void ChangeState(BossBase bossBase)
+    {
+        action = bossBase;
+        TransitionState();
+    }
+    void TransitionState()
+    {
+        if (action != null)
+        {
+            action.Active(this , profile);
+        }
     }
 }

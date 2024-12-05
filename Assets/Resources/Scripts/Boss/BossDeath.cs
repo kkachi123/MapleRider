@@ -2,23 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BossDeath : MonoBehaviour, IActive
+public class BossDeath : BossBase
 {
-    Animator animator;
-    void Awake()
+    bool couroutine = false;
+    public override void Active(BossStateControl manager, BossProfile profile)
     {
-        animator = GetComponent<Animator>();
-    }
-    public BossState Active()
-    {
-        StartCoroutine(Death());
-        return BossState.Death;
-    }
-    IEnumerator Death()
-    {
-        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
-        gameObject.SetActive(false);
-        GameManager.Instance.elitCount--;
-        GameManager.Instance.score += 200;
+        if (!couroutine)
+        {
+            couroutine = true;
+            profile.BossDeath();
+        }
     }
 }

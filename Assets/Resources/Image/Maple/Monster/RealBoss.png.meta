@@ -1,0 +1,2745 @@
+fileFormatVersion: 2
+guid: 5114bf7216a628b4d9902324204ce9d7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RealBoss_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2033
+        width: 256
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de11ce85000f4954a9edb3d0ddd58b4e
+      internalID: 1596769662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_1
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 2033
+        width: 253
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160ff9b310862c94d8dae074d257bc80
+      internalID: -728076144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_2
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 2033
+        width: 252
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5fcb8867c1f3a40893543814f871c8
+      internalID: -206095201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_3
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 2033
+        width: 249
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6698a6fe31c322546a25f36a371dc104
+      internalID: 1176635840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_4
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 2033
+        width: 249
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a31529618d484f43be36282637e9e0f
+      internalID: -1601950388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_5
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 2033
+        width: 249
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2debd5650ac49ca4090be1f565d8847b
+      internalID: 1646657724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_6
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 2033
+        width: 250
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3495e6ab90f5732459a54eec0d32532e
+      internalID: 1802262263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_7
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 2033
+        width: 256
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3b16fedff444943bbb14c1f39dd281
+      internalID: 1303955801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1714
+        width: 233
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7161dbf08570b7439e19fbe034ffb14
+      internalID: -2034034893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_9
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1714
+        width: 230
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad408cabd6d635f48a87ace88f29637b
+      internalID: -872591641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_10
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1714
+        width: 239
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6628723b72e8f7542989a7489cb41520
+      internalID: 1175756146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_11
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 1714
+        width: 243
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f84ef53f31f1424590e6ae51979e264
+      internalID: 427159506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_12
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 1714
+        width: 234
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062b1e791e85d1d459e455d032e09c07
+      internalID: 1919941659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_13
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 1714
+        width: 228
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6dc3635ecf86a54580079b79cc58dd6
+      internalID: -1893225649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_14
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 1714
+        width: 244
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75675fd6c176fad4e99d53351e0bb643
+      internalID: -35484944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_15
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 1714
+        width: 243
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66939b64616c6d049bc9f4edbf693b40
+      internalID: -117345386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1408
+        width: 256
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0345e53e780e6ec4687f1cdb25800170
+      internalID: -464102149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_17
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1408
+        width: 253
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43aafc4cf6cc1d5479152cd62025c858
+      internalID: -1096099974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_18
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1408
+        width: 251
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd92b8a40e13ca843a397c5b2c5bc375
+      internalID: 475610066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_19
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1408
+        width: 250
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d275619dd97584583c255039ffa38b
+      internalID: -1088450721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_20
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 1408
+        width: 248
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a296472a4895b44c805daf8bba5eeb1
+      internalID: 813211449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_21
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1408
+        width: 250
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606a1436403b98241835b85b1fbacd60
+      internalID: 1557017366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_22
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 1408
+        width: 250
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8cf886e895ffae4d889058bfb2cb18a
+      internalID: -290701999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_23
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 1408
+        width: 256
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd3674a8317a46439c6a71400a121cb
+      internalID: -470785932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1120
+        width: 249
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29ab309197b8db46a35c2ad0f8520c4
+      internalID: -1599411530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_25
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1051
+        width: 57
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c4e046291552d498d3204a1db9e45e
+      internalID: -1306626614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_26
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 820
+        width: 209
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbd0d74ff45fb449bf3a2eb514d068e
+      internalID: 1057945360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_27
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1073
+        width: 151
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25c87d4bb482434ab39864913dfbe1e
+      internalID: 193903142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_28
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 811
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda79517a654ffd4eb0904663fe6f5e4
+      internalID: 788377580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_29
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 466
+        width: 286
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8915199fb646e584eba723a2ffcaaa3a
+      internalID: -136735350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_30
+      rect:
+        serializedVersion: 2
+        x: 2507
+        y: 466
+        width: 292
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489f6736cdcee8649953da5cc7a963de
+      internalID: -2144322207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_31
+      rect:
+        serializedVersion: 2
+        x: 2810
+        y: 466
+        width: 303
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89bb7b7c16de2a43b5ae5ed608cd741
+      internalID: -43687140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_32
+      rect:
+        serializedVersion: 2
+        x: 3126
+        y: 466
+        width: 315
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c15d766e01100b43b47fcd7dd6ec811
+      internalID: 1027193430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_33
+      rect:
+        serializedVersion: 2
+        x: 3458
+        y: 466
+        width: 328
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cbe73cefc0d60146a2c9497ec282810
+      internalID: 1513096887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_34
+      rect:
+        serializedVersion: 2
+        x: 3797
+        y: 466
+        width: 333
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5c2094c53a23a429bebe7ecc1a7b02
+      internalID: -662321041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_35
+      rect:
+        serializedVersion: 2
+        x: 4140
+        y: 466
+        width: 331
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91a9f057647d2b45809c6f82cfc15bf
+      internalID: 931856943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_36
+      rect:
+        serializedVersion: 2
+        x: 4481
+        y: 466
+        width: 333
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9847261e18d1646bb38f952f22c8f8
+      internalID: -1328177553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_37
+      rect:
+        serializedVersion: 2
+        x: 4826
+        y: 466
+        width: 339
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444051cd857ff5042a7a01f5dcd653db
+      internalID: 1125904331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_38
+      rect:
+        serializedVersion: 2
+        x: 5180
+        y: 466
+        width: 340
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8598b994623b29841b34d26025a004bc
+      internalID: 2071963353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_39
+      rect:
+        serializedVersion: 2
+        x: 5529
+        y: 466
+        width: 348
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457dfd9b7afcf274581f32cefdb63039
+      internalID: -2114170043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_40
+      rect:
+        serializedVersion: 2
+        x: 5890
+        y: 466
+        width: 296
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5962e470ac07541babab2bf852d60c
+      internalID: 2100605124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 466
+        width: 323
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c8639d856d1b445a7c3eef2dd8e856
+      internalID: -1317990368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_42
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 466
+        width: 289
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa3295afa511e445beb06ee2187f715
+      internalID: 457516357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_43
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 466
+        width: 289
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac9609a0b72c6e4e89a8fa95573ce6e
+      internalID: 40572935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_44
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 466
+        width: 290
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431a4bba03b879b4287656a142254c82
+      internalID: -1254297750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_45
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 466
+        width: 299
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7da1d000d399f4438a590e01c635c3a
+      internalID: 2134771416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_46
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 466
+        width: 296
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f685e70f8a85cb459b9ff28eb029a9d
+      internalID: 517005203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_47
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 466
+        width: 289
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd880d013518a1b4a927e04398b21a03
+      internalID: 18970257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_48
+      rect:
+        serializedVersion: 2
+        x: 6194
+        y: 466
+        width: 276
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c08d62e1503574d87eaaf50f425759
+      internalID: -1481186106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_49
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 325
+        width: 115
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe0e3fd6595d8740a3bf35248ffdd65
+      internalID: -812612596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_50
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 325
+        width: 115
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b03e26409ad19b4a82009e26ca91bde
+      internalID: -1005226537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_51
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 21
+        width: 252
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd3b88bddcf3d64093f47d663f108c1
+      internalID: -1885437194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_52
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 21
+        width: 239
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4377e866c43c0a949a6f423d5ea1c07d
+      internalID: 964129160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_53
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 21
+        width: 252
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa086c9ac90643c478b54baee3e211c6
+      internalID: 326408083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_54
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 21
+        width: 292
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcfe560b265c2904ba97e28b46a6f6fa
+      internalID: -1908642128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_55
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 21
+        width: 222
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae88a591594bef145aed7d5efa3c887a
+      internalID: 366435577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_56
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 21
+        width: 208
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5be5136c47cea45a4b8432b6d9266d
+      internalID: 1848905936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_57
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 21
+        width: 157
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c14cda5f0895f443afa6e82ad191147
+      internalID: 866336310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_58
+      rect:
+        serializedVersion: 2
+        x: 2223
+        y: 160
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faeb77d32ccfaeb4eb8744304c436820
+      internalID: 115167155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_59
+      rect:
+        serializedVersion: 2
+        x: 2390
+        y: 177
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7b63f4536d3a341806c3dc6b50dba5
+      internalID: -327886093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_60
+      rect:
+        serializedVersion: 2
+        x: 2431
+        y: 179
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354f38371d0024e408fe40c3dd679f90
+      internalID: 26849291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_61
+      rect:
+        serializedVersion: 2
+        x: 2185
+        y: 154
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b179ff9e67f5642ab85f395ce8b7c0
+      internalID: 1551273810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_62
+      rect:
+        serializedVersion: 2
+        x: 2283
+        y: 157
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1994140dfb9daf498b63d17823b6624
+      internalID: -1439612485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_63
+      rect:
+        serializedVersion: 2
+        x: 2378
+        y: 164
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9316dbbc4331000498d477541527825e
+      internalID: 1764904789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_64
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 168
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7501f8c600f74ac4ba2a107b56775890
+      internalID: 1559265681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_65
+      rect:
+        serializedVersion: 2
+        x: 2504
+        y: 154
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6920ea4f9f07d49985d35c494221a8
+      internalID: 995213153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_66
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 51
+        width: 110
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9641569884a9b8459940a957f3814a5
+      internalID: -296615632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_67
+      rect:
+        serializedVersion: 2
+        x: 2267
+        y: 150
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f613c20a33a7f5045990f42ce1c57f95
+      internalID: -1322080993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_68
+      rect:
+        serializedVersion: 2
+        x: 2359
+        y: 147
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb7b3f892cea7f42ad77822e757668c
+      internalID: -1813438628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_69
+      rect:
+        serializedVersion: 2
+        x: 2469
+        y: 155
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf29b4d59834f44aa42d83538148b33
+      internalID: 1635412619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_70
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 141
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457f528fd5f054c4fa469c518824ada3
+      internalID: 727694058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_71
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 138
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2022d60191514c142b7678c8e467d0a4
+      internalID: 810547679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_72
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 141
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c2d2cc719f10a46b2893feb0176ecc
+      internalID: -2083211570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_73
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 139
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fff15f24421c624e9ebdfc7390eccbd
+      internalID: 1904517226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_74
+      rect:
+        serializedVersion: 2
+        x: 2277
+        y: 144
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4410015637d5a4085a46c3bcbb2242
+      internalID: 270819029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_75
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 138
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2b26ef557830c4e929e134be180d0f
+      internalID: -2112971424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_76
+      rect:
+        serializedVersion: 2
+        x: 2404
+        y: 65
+        width: 65
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb9cf708fdee6f45a9fce728d81b6c5
+      internalID: -1596054574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_77
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 125
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff40482f6a6a27a48bf9045fc94704d2
+      internalID: 1058655689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_78
+      rect:
+        serializedVersion: 2
+        x: 2084
+        y: 122
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd1217963b2c694292badedb93f044e
+      internalID: 127955980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_79
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 126
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d5463f8c1c6ca4ba0a50b227c21e1b
+      internalID: -277070088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_80
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 115
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c068e0489539984cbf66662379e89a7
+      internalID: 1541645487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_81
+      rect:
+        serializedVersion: 2
+        x: 2213
+        y: 62
+        width: 63
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74edbfb6f9dddb940a54a0680c8700e9
+      internalID: -1889219644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_82
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 122
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbff64dd5855714680425fd54e202e4
+      internalID: 1556742600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_83
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 106
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0a8cd2e0a5c934bae3247b594f8a98
+      internalID: 1022216748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_84
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 52
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab212867b79fcd4597045c001685542
+      internalID: 1061548736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_85
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 103
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc94305023e8894f926e078198a9afb
+      internalID: 1862634297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_86
+      rect:
+        serializedVersion: 2
+        x: 2306
+        y: 105
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1bb8c7ef1764ab42a2ad5a106b1d504
+      internalID: -469075055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_87
+      rect:
+        serializedVersion: 2
+        x: 2308
+        y: 109
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2174f924e0cd74990ebf90585dbc7f
+      internalID: 1569606984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_88
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 106
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241e96015f043414e9d444f883f5ad01
+      internalID: 1150617697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_89
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 65
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb1252d81eb2e04693d5cc5cd9812e1
+      internalID: -1152494957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_90
+      rect:
+        serializedVersion: 2
+        x: 2712
+        y: 66
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6251dc1bb9f09e4e9c524b43cbb5f1d
+      internalID: 1260920621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_91
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 90
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485f4abda7b45f941a6dc2b82db33da0
+      internalID: -978516039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_92
+      rect:
+        serializedVersion: 2
+        x: 2113
+        y: 94
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae011cd91e025c4f9054ded10dda954
+      internalID: 1780235686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_93
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 97
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2757174f89985f24bb026c1747775ca0
+      internalID: -812962647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_94
+      rect:
+        serializedVersion: 2
+        x: 2365
+        y: 100
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d029313c1cd571e4186d39f1add76568
+      internalID: -1808337681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_95
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 81
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb2b4db868f2d84a97acd2a3695ce48
+      internalID: 1883865142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_96
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 82
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc26f6ec82c6984a820caaad702cf59
+      internalID: 1226451559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_97
+      rect:
+        serializedVersion: 2
+        x: 2287
+        y: 87
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae01423e251c3234d922d2e17937fdab
+      internalID: 266125726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_98
+      rect:
+        serializedVersion: 2
+        x: 2297
+        y: 84
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c309edf4a1484154abfbe6ee50f5062d
+      internalID: -1604896431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_99
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 72
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b0f1bb06c02bf48bfc8c6ea7177ea9
+      internalID: -800124548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_100
+      rect:
+        serializedVersion: 2
+        x: 2101
+        y: 65
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff0752be34666f439d964190081871a
+      internalID: -1090253885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_101
+      rect:
+        serializedVersion: 2
+        x: 2188
+        y: 70
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9332e126077bafe45a2c34a07d144ba7
+      internalID: 1436185459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_102
+      rect:
+        serializedVersion: 2
+        x: 2273
+        y: 69
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad151dc890af6d47896eafc4ffcf991
+      internalID: 1672873254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_103
+      rect:
+        serializedVersion: 2
+        x: 2293
+        y: 63
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2a04099dff6e647b5084495f592fa9
+      internalID: 578392207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_104
+      rect:
+        serializedVersion: 2
+        x: 2482
+        y: 73
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec527ae193613834a86586828af80fab
+      internalID: 101821533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_105
+      rect:
+        serializedVersion: 2
+        x: 2504
+        y: 68
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f000a66cf2dd0f42b9fadbad1a356a0
+      internalID: 1671346754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_106
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 40
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31eabda84dbbfaa46acd7a1116793d21
+      internalID: -478594804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_107
+      rect:
+        serializedVersion: 2
+        x: 2090
+        y: 48
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1271a550846bc4999d482308f7aa1d
+      internalID: -2044058438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_108
+      rect:
+        serializedVersion: 2
+        x: 2257
+        y: 46
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126e7659d2239cc4bb943d7288e566e4
+      internalID: -870000265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_109
+      rect:
+        serializedVersion: 2
+        x: 2276
+        y: 46
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3b749caf607dd4a8dac0565223b331
+      internalID: -1036021361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_110
+      rect:
+        serializedVersion: 2
+        x: 2302
+        y: 54
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7011546ac989b954aa63cbbee33f77c9
+      internalID: -328298941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_111
+      rect:
+        serializedVersion: 2
+        x: 2387
+        y: 46
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1a073c128f2094aa5e4def24a55163
+      internalID: 1897872259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_112
+      rect:
+        serializedVersion: 2
+        x: 2437
+        y: 52
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01fcc71fbaa99943bdf93062e8edce2
+      internalID: 1235455084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_113
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 21
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bab5f45b417edc4691135dade8a79ab
+      internalID: -1859305124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_114
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 31
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8ec6e1b505b6f4da6d531da0c0f9a3
+      internalID: -665348967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_115
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 21
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98cf63db2084eb0478e9b43ebac98718
+      internalID: -1605237705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_116
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12781e96d7735a545868ef40e124d10f
+      internalID: -1904582641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_117
+      rect:
+        serializedVersion: 2
+        x: 2227
+        y: 21
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5368e2069ce07a545a698e9185af73b7
+      internalID: 910910657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoss_118
+      rect:
+        serializedVersion: 2
+        x: 2435
+        y: 21
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f276fddeb741682429f89abfd47ab63c
+      internalID: 249078127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      RealBoss_0: 1596769662
+      RealBoss_1: -728076144
+      RealBoss_10: 1175756146
+      RealBoss_100: -1090253885
+      RealBoss_101: 1436185459
+      RealBoss_102: 1672873254
+      RealBoss_103: 578392207
+      RealBoss_104: 101821533
+      RealBoss_105: 1671346754
+      RealBoss_106: -478594804
+      RealBoss_107: -2044058438
+      RealBoss_108: -870000265
+      RealBoss_109: -1036021361
+      RealBoss_11: 427159506
+      RealBoss_110: -328298941
+      RealBoss_111: 1897872259
+      RealBoss_112: 1235455084
+      RealBoss_113: -1859305124
+      RealBoss_114: -665348967
+      RealBoss_115: -1605237705
+      RealBoss_116: -1904582641
+      RealBoss_117: 910910657
+      RealBoss_118: 249078127
+      RealBoss_12: 1919941659
+      RealBoss_13: -1893225649
+      RealBoss_14: -35484944
+      RealBoss_15: -117345386
+      RealBoss_16: -464102149
+      RealBoss_17: -1096099974
+      RealBoss_18: 475610066
+      RealBoss_19: -1088450721
+      RealBoss_2: -206095201
+      RealBoss_20: 813211449
+      RealBoss_21: 1557017366
+      RealBoss_22: -290701999
+      RealBoss_23: -470785932
+      RealBoss_24: -1599411530
+      RealBoss_25: -1306626614
+      RealBoss_26: 1057945360
+      RealBoss_27: 193903142
+      RealBoss_28: 788377580
+      RealBoss_29: -136735350
+      RealBoss_3: 1176635840
+      RealBoss_30: -2144322207
+      RealBoss_31: -43687140
+      RealBoss_32: 1027193430
+      RealBoss_33: 1513096887
+      RealBoss_34: -662321041
+      RealBoss_35: 931856943
+      RealBoss_36: -1328177553
+      RealBoss_37: 1125904331
+      RealBoss_38: 2071963353
+      RealBoss_39: -2114170043
+      RealBoss_4: -1601950388
+      RealBoss_40: 2100605124
+      RealBoss_41: -1317990368
+      RealBoss_42: 457516357
+      RealBoss_43: 40572935
+      RealBoss_44: -1254297750
+      RealBoss_45: 2134771416
+      RealBoss_46: 517005203
+      RealBoss_47: 18970257
+      RealBoss_48: -1481186106
+      RealBoss_49: -812612596
+      RealBoss_5: 1646657724
+      RealBoss_50: -1005226537
+      RealBoss_51: -1885437194
+      RealBoss_52: 964129160
+      RealBoss_53: 326408083
+      RealBoss_54: -1908642128
+      RealBoss_55: 366435577
+      RealBoss_56: 1848905936
+      RealBoss_57: 866336310
+      RealBoss_58: 115167155
+      RealBoss_59: -327886093
+      RealBoss_6: 1802262263
+      RealBoss_60: 26849291
+      RealBoss_61: 1551273810
+      RealBoss_62: -1439612485
+      RealBoss_63: 1764904789
+      RealBoss_64: 1559265681
+      RealBoss_65: 995213153
+      RealBoss_66: -296615632
+      RealBoss_67: -1322080993
+      RealBoss_68: -1813438628
+      RealBoss_69: 1635412619
+      RealBoss_7: 1303955801
+      RealBoss_70: 727694058
+      RealBoss_71: 810547679
+      RealBoss_72: -2083211570
+      RealBoss_73: 1904517226
+      RealBoss_74: 270819029
+      RealBoss_75: -2112971424
+      RealBoss_76: -1596054574
+      RealBoss_77: 1058655689
+      RealBoss_78: 127955980
+      RealBoss_79: -277070088
+      RealBoss_8: -2034034893
+      RealBoss_80: 1541645487
+      RealBoss_81: -1889219644
+      RealBoss_82: 1556742600
+      RealBoss_83: 1022216748
+      RealBoss_84: 1061548736
+      RealBoss_85: 1862634297
+      RealBoss_86: -469075055
+      RealBoss_87: 1569606984
+      RealBoss_88: 1150617697
+      RealBoss_89: -1152494957
+      RealBoss_9: -872591641
+      RealBoss_90: 1260920621
+      RealBoss_91: -978516039
+      RealBoss_92: 1780235686
+      RealBoss_93: -812962647
+      RealBoss_94: -1808337681
+      RealBoss_95: 1883865142
+      RealBoss_96: 1226451559
+      RealBoss_97: 266125726
+      RealBoss_98: -1604896431
+      RealBoss_99: -800124548
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

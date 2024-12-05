@@ -5,34 +5,20 @@ using UnityEngine;
 public class BossBullet : BulletBase
 {
     public GameObject player;
-    Vector2 shootDirection;
 
     void Start()
     {
         SettingDirection();
     }
-    void Update()
-    {
-       BulletDestroy();
-    }
-    void FixedUpdate()
+    protected override void FixedUpdate()
     {
         if(player != null)
             Move_2D();
     }
     void SettingDirection()
     {
-        // 플레이어를 향해 총알을 발사
         if (player != null)
             shootDirection = (player.transform.position - transform.position).normalized;
-    }
-    void BulletDestroy()
-    {
-        Destroy(gameObject, 3.0f);
-    }
-    void Move_2D()
-    {
-        rb.MovePosition(rb.position + shootDirection * maxSpeed * Time.deltaTime);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -47,8 +33,8 @@ public class BossBullet : BulletBase
         else if (collision.tag == "Player")
         {
             SoundManager.sInstance.PlaySFXEnemy(SoundManager.EnemySFX.Hit);
-            collision.GetComponent<Player2D>().playerHp -= power;
-            collision.GetComponent<Player2D>().StartCoroutine(collision.GetComponent<Player2D>().PlayerHit());
+            collision.GetComponent<PlayerControl>().playerHp -= power;
+            collision.GetComponent<PlayerControl>().StartCoroutine(collision.GetComponent<PlayerControl>().PlayerHit());
             Instantiate(shotEffectPrefab, transform.position, transform.rotation);
             Destroy(gameObject);
         }

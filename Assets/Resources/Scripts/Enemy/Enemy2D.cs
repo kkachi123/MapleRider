@@ -26,7 +26,8 @@ public class Enemy2D : MonoBehaviour
     }
     void FixedUpdate()
     {
-        Move_2D();
+        if(!GameManager.Instance.bGameOver)
+            Move_2D();
     }
     float yCos = 0.0f;
     void Move_2D()

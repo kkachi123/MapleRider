@@ -15,11 +15,11 @@ GameObject:
   - component: {fileID: 3507247768837564906}
   m_Layer: 0
   m_Name: Bress
-  m_TagString: PlayerBullet
+  m_TagString: PlayerSkill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7888722537746586665
 Transform:
   m_ObjectHideFlags: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1600624023
-  m_SortingLayer: 4
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 30486a21177ad044fab01499c68ea151, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -165,5 +165,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d6ca7a425b26d1448812be970dc1b66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shotEffectPrefab: {fileID: 4254203376737392519, guid: 8c8729a73479a274a9cc9895ff437bda,
-    type: 3}
+  shotEffectPrefab: {fileID: 4254203376737392519, guid: 8c8729a73479a274a9cc9895ff437bda, type: 3}
+  power: 5

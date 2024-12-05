@@ -7,10 +7,6 @@ public class PlayerBress : MonoBehaviour
     public GameObject shotEffectPrefab;
     public float power = 5.0f;
 
-    void Start()
-    {
-        Application.runInBackground = true;
-    }
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.tag == "Enemy")
@@ -20,7 +16,7 @@ public class PlayerBress : MonoBehaviour
         }
         else if(collision.tag == "Boss")
         {
-            collision.GetComponent<BossStateControl>().hp -= power;
+            collision.GetComponent<BossProfile>().hp -= power;
             Instantiate(shotEffectPrefab, collision.transform.position, collision.transform.rotation);
         }
     }

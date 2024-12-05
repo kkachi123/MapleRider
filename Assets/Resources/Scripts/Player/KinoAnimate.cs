@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerPos : MonoBehaviour
+public class KinoAnimate : MonoBehaviour
 {
     [SerializeField] float speed = 2.0f;
     [SerializeField] float animationSpeed = 0.08f;

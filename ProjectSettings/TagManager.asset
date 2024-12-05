@@ -10,6 +10,7 @@ TagManager:
   - EnemyBullet
   - Enemy
   - EndLine
+  - PlayerSkill
   layers:
   - Default
   - TransparentFX
@@ -46,4 +47,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BackGround
+    uniqueID: 471893257
+    locked: 0
+  - name: MapObject
+    uniqueID: 2360445919
+    locked: 0
+  - name: Boss
+    uniqueID: 486500151
+    locked: 0
+  - name: Enemy
+    uniqueID: 3874365295
+    locked: 0
+  - name: Player
+    uniqueID: 3856737581
     locked: 0

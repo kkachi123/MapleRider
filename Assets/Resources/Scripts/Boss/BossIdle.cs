@@ -2,24 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BossIdle : MonoBehaviour, IActive
+public class BossIdle : BossBase
 {
-    float deltaTime = 0.0f;
-    Animator animator;
-    void Awake()
-    {
-        animator = GetComponent<Animator>();
-    }
-    public BossState Active()
+    public override void Active(BossStateControl manager, BossProfile profile)
     {
         deltaTime += Time.deltaTime;
-        if(deltaTime >= 3.0f)
+        if(deltaTime >= 1.5f)
         {
             deltaTime = 0.0f;
-            animator.SetFloat("Speed", 10.0f);
-            return BossState.Move;
+            profile.animator.SetFloat("Speed", 10.0f);
+            profile.PosSet();
+            manager.ChangeState(new BossMove());
         }
-        return BossState.Idle;
     }
     
 }

@@ -29,30 +29,29 @@ public class EnemySpawner : MonoBehaviour
                     enemyPrefab.GetComponent<Enemy2D>().hp = 10.0f * (GameManager.Instance.score / 500);
                 }
             }
-            if(GameManager.Instance.score >= 1000 * preLevel)
+            if (GameManager.Instance.score >= 1000 * preLevel)
                 ElitSpawn();
         }
     }
+
     void ElitSpawn()
     {
         int maxEliteCount = GameManager.Instance.score / 1000;
-        if(maxEliteCount > enemyElite.Length)
+        if (maxEliteCount > enemyElite.Length)
             maxEliteCount = enemyElite.Length;
-        for(int i = 0; i < enemyElite.Length; i++)
+        for (int i = 0; i < enemyElite.Length; i++)
         {
             if (enemyElite[i].activeSelf == false && GameManager.Instance.elitCount < maxEliteCount)
             {
                 Vector2 pos = new Vector2(transform.position.x, Random.Range(-range, range));
                 enemyElite[i].SetActive(true);
                 enemyElite[i].transform.position = pos;
-                enemyElite[i].GetComponent<BossStateControl>().hp = 1000 * GameManager.Instance.level;
-                enemyElite[i].GetComponent<BossMove>().moveSpeed = 100.0f * GameManager.Instance.level;
-                enemyElite[i].GetComponent<BossAttack>().power = 50.0f;
-                enemyElite[i].GetComponent<BossStateControl>().state = BossState.Move;
-                enemyElite[i].GetComponent<BossMove>().movePosIndex = i;
+                enemyElite[i].GetComponent<BossStateControl>().ChangeState(new BossMove());
+                enemyElite[i].GetComponent<BossProfile>().Init(i);
                 GameManager.Instance.elitCount++;
             }
         }
         preLevel = GameManager.Instance.level;
     }
+
 }

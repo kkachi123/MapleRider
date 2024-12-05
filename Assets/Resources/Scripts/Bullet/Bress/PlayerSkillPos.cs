@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerSkill : MonoBehaviour
+public class PlayerSkillPos : MonoBehaviour
 {
     [SerializeField]GameObject player;
-    void Update()
+    void FixedUpdate()
     {
         this.transform.position = player.transform.position;
     }
