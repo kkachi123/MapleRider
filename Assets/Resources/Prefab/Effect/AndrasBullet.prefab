@@ -74,8 +74,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1146718895
-  m_SortingLayer: 3
+  m_SortingLayerID: -420602001
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 1613762073, guid: 3f7ed1a4ac4aab24aa3bb0d60cd8c99c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -183,6 +183,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efba9f64e44ae944da197bb4f91c9501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shotEffectPrefab: {fileID: 4254203376737392519, guid: 8c8729a73479a274a9cc9895ff437bda,
-    type: 3}
+  shotEffectPrefab: {fileID: 4254203376737392519, guid: 8c8729a73479a274a9cc9895ff437bda, type: 3}
+  rb: {fileID: 0}
+  power: 10
+  speed: 400
+  shootDirection: {x: 0, y: 0}
   player: {fileID: 0}
