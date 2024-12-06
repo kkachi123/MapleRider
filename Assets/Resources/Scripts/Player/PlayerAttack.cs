@@ -62,7 +62,7 @@ public class PlayerAttack : MonoBehaviour
         }
         else if (Input.GetMouseButtonDown(1) && player.playerMp > 0)
         {
-            SoundManager.sInstance.PlaySFXPlayer(SoundManager.PlayerSFX.Attack);
+            SoundManager.sInstance.PlaySFXPlayer(SoundManager.PlayerSFX.Bress);
             animator.SetBool("IsAttack", true);
             bress.SetActive(true);
         }

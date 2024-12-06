@@ -10,10 +10,13 @@ public class SoundManager : MonoBehaviour
     {
         Lobby,
         Game,
+        FinalPhase1,
+        FinalPhase2,
     }
     public enum PlayerSFX
     {
         Attack,
+        Bress,
         GetCoin,
         PlayerDie,
         LevelUp,
@@ -22,8 +25,10 @@ public class SoundManager : MonoBehaviour
     }
     public enum EnemySFX
     {
+        Attack,
         Hit,
         MonsterDie,
+        BossAttackStand,
         BossAttack,
         BossDie,
     }

@@ -178,17 +178,22 @@ MonoBehaviour:
   bgms:
   - {fileID: 8300000, guid: 6ed01669ff87c584ab79ed610d4a85a6, type: 3}
   - {fileID: 8300000, guid: d257dbb3523318545b106738d8b9caf1, type: 3}
+  - {fileID: 8300000, guid: 80a2b0b23b556c849b36fe0913e95175, type: 3}
+  - {fileID: 8300000, guid: ca20373d0a2038f499f68d7c520a5224, type: 3}
   playersfxs:
-  - {fileID: 8300000, guid: 496154445a85e0c48ae9620389704a37, type: 3}
+  - {fileID: 8300000, guid: 197c7b2dbe2b6a240b72187e18c9ea8e, type: 3}
+  - {fileID: 8300000, guid: 33d8ba57cf1400b4080f20070bdf9223, type: 3}
   - {fileID: 8300000, guid: dac24bec72f2edd4cbaccf642c045153, type: 3}
   - {fileID: 8300000, guid: 3ee896413436c12459cf0e7034777b2f, type: 3}
   - {fileID: 8300000, guid: 6a82109ce39e7c64bac4935ba7e41396, type: 3}
   - {fileID: 8300000, guid: 700d92557b04de048a870166792910ce, type: 3}
   - {fileID: 8300000, guid: ba3b838ee36e40f459ca5e3397934393, type: 3}
   enemysfxs:
+  - {fileID: 8300000, guid: 496154445a85e0c48ae9620389704a37, type: 3}
   - {fileID: 8300000, guid: 6411c2dba5d4aab4c8b67e6acb350cdf, type: 3}
   - {fileID: 8300000, guid: 30b0186c3b37e5842bbc081915c20613, type: 3}
-  - {fileID: 8300000, guid: fda4917f545142041911b9a80e0502a3, type: 3}
+  - {fileID: 8300000, guid: ecfede28b5ba24f4fb717d8fb95ab3f4, type: 3}
+  - {fileID: 8300000, guid: faff33d79d54ea148bae5d60a2d0549a, type: 3}
   - {fileID: 8300000, guid: 05008c520423d6643806d5874854f5a1, type: 3}
   audioBgm: {fileID: 2025462373342734934}
   audioPlayerSfx: {fileID: 3967036255958376809}

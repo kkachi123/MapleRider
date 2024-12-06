@@ -11,7 +11,7 @@ public class BossAttack : BossBase
         if (shootTerm <= 0.0f)
         {
             shootTerm = 0.3f;
-            SoundManager.sInstance.PlaySFXPlayer(SoundManager.PlayerSFX.Attack);
+            SoundManager.sInstance.PlaySFXEnemy(SoundManager.EnemySFX.Attack);
 
             if (!profile.IsShooting())
             {
