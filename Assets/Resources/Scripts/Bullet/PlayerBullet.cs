@@ -12,6 +12,12 @@ public class PlayerBullet : BulletBase
             collision.GetComponent<Enemy2D>().hp -= power;
             Instantiate(shotEffectPrefab, transform.position, transform.rotation);
         }
+        else if(collision.tag == "Elite")
+        {
+            Destroy(gameObject);
+            collision.GetComponent<EliteProfile>().hp -= power;
+            Instantiate(shotEffectPrefab, transform.position, transform.rotation);
+        }
         else if(collision.tag == "Boss")
         {
             Destroy(gameObject);

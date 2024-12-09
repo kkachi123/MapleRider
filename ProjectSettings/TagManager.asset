@@ -11,6 +11,7 @@ TagManager:
   - Enemy
   - EndLine
   - PlayerSkill
+  - Elite
   layers:
   - Default
   - TransparentFX

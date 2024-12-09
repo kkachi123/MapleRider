@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Coin : MonoBehaviour
 {
-    [SerializeField] float moveSpeed = 1000f;
+    [SerializeField] float moveSpeed = 1000.0f;
+    [SerializeField] int addScore = 100;
     Rigidbody2D rb;
     void Start()
     {
@@ -22,5 +23,12 @@ public class Coin : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        else if(collision.gameObject.tag == "Player")
+        {
+            GameManager.Instance.score += addScore;
+            SoundManager.sInstance.PlaySFXPlayer(SoundManager.PlayerSFX.GetCoin);
+            Destroy(gameObject);
+        }
+        
     }
 }

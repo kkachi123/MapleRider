@@ -12,12 +12,16 @@ public class LobbyControl : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0))
         {
-            SoundManager.sInstance.PlaySFXPlayer(SoundManager.PlayerSFX.ButtonClick);
+            SoundManager.sInstance.PlaySFX(SoundManager.SFX.ButtonClick);
         }
     }
     public void StartGame()
     {
-        SoundManager.sInstance.PlaySFXPlayer(SoundManager.PlayerSFX.MoveScene);
+        GameManager.Instance.score = 0;
+        GameManager.Instance.level = 1;
+        GameManager.Instance.bGameOver = false;
+        GameManager.Instance.bossPhase = 0;
+        SoundManager.sInstance.PlaySFX(SoundManager.SFX.MoveScene);
         LoadingSceneManager.LoadScene("Play");
     }
     public void ExitGame()

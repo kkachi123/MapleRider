@@ -20,8 +20,6 @@ public class SoundManager : MonoBehaviour
         GetCoin,
         PlayerDie,
         LevelUp,
-        ButtonClick,
-        MoveScene,
     }
     public enum EnemySFX
     {
@@ -32,13 +30,21 @@ public class SoundManager : MonoBehaviour
         BossAttack,
         BossDie,
     }
+    public enum SFX
+    {
+        ButtonClick,
+        MoveScene,
+        Warning,
+    }
     [SerializeField] AudioClip[] bgms;
     [SerializeField] AudioClip[] playersfxs;
     [SerializeField] AudioClip[] enemysfxs;
+    [SerializeField] AudioClip[] sfxs;
 
     [SerializeField] AudioSource audioBgm;
     [SerializeField] AudioSource audioPlayerSfx;
     [SerializeField] AudioSource audioEnemySfx;
+    [SerializeField] AudioSource audioSfx;
 
     private void Awake()
     {
@@ -71,5 +77,13 @@ public class SoundManager : MonoBehaviour
     public void PlaySFXEnemy(EnemySFX sfxType)
     {
         audioEnemySfx.PlayOneShot(enemysfxs[(int)sfxType]);
+    }
+    public void PlaySFX(SFX sfxType)
+    {
+        audioSfx.PlayOneShot(sfxs[(int)sfxType]);
+    }
+    public void StopSFX()
+    {
+        audioSfx.Stop();
     }
 }

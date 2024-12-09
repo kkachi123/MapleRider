@@ -14,6 +14,11 @@ public class PlayerBress : MonoBehaviour
             collision.GetComponent<Enemy2D>().hp -= power;
             Instantiate(shotEffectPrefab, collision.transform.position, collision.transform.rotation);
         }
+        else if(collision.tag == "Elite")
+        {
+            collision.GetComponent<EliteProfile>().hp -= power;
+            Instantiate(shotEffectPrefab, collision.transform.position, collision.transform.rotation);
+        }
         else if(collision.tag == "Boss")
         {
             collision.GetComponent<BossProfile>().hp -= power;

@@ -36,4 +36,5 @@ public class GameManager : MonoBehaviour
     public int score = 0;
     public int level = 1;
     public int elitCount = 0;
+    public int bossPhase = 0;
 }

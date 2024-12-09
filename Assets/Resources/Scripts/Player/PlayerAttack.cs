@@ -25,7 +25,7 @@ public class PlayerAttack : MonoBehaviour
     }
     void Update()
     {
-        if(player.playerHp > 0)
+        if(player.playerHp > 0 && !GameManager.Instance.bGameOver)
         {
             BulletCool();
             Active();

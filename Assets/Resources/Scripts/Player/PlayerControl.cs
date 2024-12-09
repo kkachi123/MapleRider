@@ -62,13 +62,7 @@ public class PlayerControl : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Coin")
-        {
-            GameManager.Instance.score += 100;
-            Destroy(collision.gameObject);
-            SoundManager.sInstance.PlaySFXPlayer(SoundManager.PlayerSFX.GetCoin);
-        }
-        else if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Boss")
+        if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Boss")
         {
             playerHp -= 10;
             SoundManager.sInstance.PlaySFXEnemy(SoundManager.EnemySFX.Hit);
@@ -145,6 +139,9 @@ public class PlayerControl : MonoBehaviour
         GameManager.Instance.level++;
         Instantiate(levelUpEffectPrefab, this.transform.position, this.transform.rotation);
         recoverMp += 5;
+        hpRecoverTime -= 0.3f;
+        if (hpRecoverTime < 0.5f)
+            hpRecoverTime = 0.5f;
         maxCoolTime -= 0.1f;
         if (maxCoolTime < 0.1f)
             maxCoolTime = 0.1f;
@@ -159,7 +156,7 @@ public class PlayerControl : MonoBehaviour
         while(count > 0)
         {
             yield return new WaitForSeconds(0.1f);
-            
+            FillHpBar();
             for(int i = 0; i < playerImages.Length; i++)
             {
                 Color playerAlpha = playerImages[i].color;

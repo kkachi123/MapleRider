@@ -17,11 +17,11 @@ GameObject:
   - component: {fileID: 4342849678450170085}
   m_Layer: 0
   m_Name: Andras
-  m_TagString: Boss
+  m_TagString: Elite
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &433459563751187372
 Transform:
   m_ObjectHideFlags: 0
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 486500151
   m_SortingLayer: 3
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1454665625, guid: 3f7ed1a4ac4aab24aa3bb0d60cd8c99c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -120,11 +120,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1418165236171029268}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c28ce7074189641478a4523af2b42196, type: 3}
+  m_Script: {fileID: 11500000, guid: 956856c7d796ab847b40461096eecb4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
   hp: 1000
+  maxHp: 0
   moveSpeed: 100
   bossPos:
   - {fileID: 0}
@@ -145,9 +146,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1418165236171029268}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 901ba8a4eb78c3c44895ba9b5c4fb959, type: 3}
+  m_Script: {fileID: 11500000, guid: e45a852c5fc804b4a92d4e8743cf10f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hpSlider: {fileID: 0}
 --- !u!58 &3732395500326732936
 CircleCollider2D:
   m_ObjectHideFlags: 0

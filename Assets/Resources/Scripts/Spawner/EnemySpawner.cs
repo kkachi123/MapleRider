@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
+    public GameObject player;
     public GameObject[] enemyElite;
-    public GameObject enemyPrefab;
+    public GameObject[] enemyPrefab;
     public float firstInterval = 1.0f;
     public float range = 200.0f;
     float interval;
@@ -14,23 +15,32 @@ public class EnemySpawner : MonoBehaviour
     {
         interval = firstInterval;
         preLevel = GameManager.Instance.level;
-        while (!GameManager.Instance.bGameOver)
+        while (!GameManager.Instance.bGameOver && GameManager.Instance.bossPhase < 1)
         {
             yield return new WaitForSeconds(interval);
             if (GameManager.Instance.elitCount < 1 || GameManager.Instance.level > 3000)
             {
                 Vector2 pos = new Vector2(transform.position.x, Random.Range(-range, range));
-                Instantiate(enemyPrefab, pos, transform.rotation);
+                int rand = Random.Range(0, 9);
+                int enemyIndex;
+                if (rand >= 3)
+                    enemyIndex = 0;
+                else
+                    enemyIndex = 1;
+                Instantiate(enemyPrefab[enemyIndex], pos, transform.rotation);
+                if(enemyIndex == 1)
+                    enemyPrefab[enemyIndex].GetComponent<SpeedEnemy2D>().player = player;
                 if (GameManager.Instance.score > 500)
                 {
                     interval = firstInterval / (GameManager.Instance.score / 500) ;
                     if(interval < 0.1f)
                         interval = 0.1f;
-                    enemyPrefab.GetComponent<Enemy2D>().hp = 10.0f * (GameManager.Instance.score / 500);
                 }
             }
             if (GameManager.Instance.score >= 1000 * preLevel)
-                ElitSpawn();
+                GameManager.Instance.bossPhase++;
+                //ElitSpawn();
+            
         }
     }
 
@@ -46,8 +56,7 @@ public class EnemySpawner : MonoBehaviour
                 Vector2 pos = new Vector2(transform.position.x, Random.Range(-range, range));
                 enemyElite[i].SetActive(true);
                 enemyElite[i].transform.position = pos;
-                enemyElite[i].GetComponent<BossStateControl>().ChangeState(new BossMove());
-                enemyElite[i].GetComponent<BossProfile>().Init(i);
+                enemyElite[i].GetComponent<EliteProfile>().Init(i);
                 GameManager.Instance.elitCount++;
             }
         }
