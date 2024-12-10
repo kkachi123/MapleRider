@@ -18,7 +18,7 @@ public class EnemySpawner : MonoBehaviour
         while (!GameManager.Instance.bGameOver && GameManager.Instance.bossPhase < 1)
         {
             yield return new WaitForSeconds(interval);
-            if (GameManager.Instance.elitCount < 1 || GameManager.Instance.level > 3000)
+            if (GameManager.Instance.elitCount < 1)
             {
                 Vector2 pos = new Vector2(transform.position.x, Random.Range(-range, range));
                 int rand = Random.Range(0, 9);
@@ -27,9 +27,9 @@ public class EnemySpawner : MonoBehaviour
                     enemyIndex = 0;
                 else
                     enemyIndex = 1;
-                Instantiate(enemyPrefab[enemyIndex], pos, transform.rotation);
+                GameObject enemy = Instantiate(enemyPrefab[enemyIndex], pos, transform.rotation);
                 if(enemyIndex == 1)
-                    enemyPrefab[enemyIndex].GetComponent<SpeedEnemy2D>().player = player;
+                    enemy.GetComponent<SpeedEnemy2D>().player = player;
                 if (GameManager.Instance.score > 500)
                 {
                     interval = firstInterval / (GameManager.Instance.score / 500) ;
@@ -37,9 +37,10 @@ public class EnemySpawner : MonoBehaviour
                         interval = 0.1f;
                 }
             }
-            if (GameManager.Instance.score >= 1000 * preLevel)
+            if (GameManager.Instance.score >= 1000 * preLevel && GameManager.Instance.score <= 4000)
+                ElitSpawn();
+            else if(GameManager.Instance.score > 4000)
                 GameManager.Instance.bossPhase++;
-                //ElitSpawn();
             
         }
     }

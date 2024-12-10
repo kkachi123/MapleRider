@@ -139,7 +139,8 @@ public class PlayerControl : MonoBehaviour
         GameManager.Instance.level++;
         Instantiate(levelUpEffectPrefab, this.transform.position, this.transform.rotation);
         recoverMp += 5;
-        hpRecoverTime -= 0.3f;
+        recoverHp += 5;
+        hpRecoverTime -= 0.5f;
         if (hpRecoverTime < 0.5f)
             hpRecoverTime = 0.5f;
         maxCoolTime -= 0.1f;

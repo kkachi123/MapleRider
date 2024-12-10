@@ -15,7 +15,7 @@ public class Enemy2D : MonoBehaviour
     public int addScore = 10;
 
     public GameObject shotEffectPrefab;
-    protected virtual void Start()
+    protected virtual void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
     }

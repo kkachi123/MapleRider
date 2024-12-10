@@ -27,7 +27,7 @@ public class SoundManager : MonoBehaviour
         Hit,
         MonsterDie,
         BossAttackStand,
-        BossAttack,
+        BossRazer,
         BossDie,
     }
     public enum SFX
@@ -76,7 +76,8 @@ public class SoundManager : MonoBehaviour
     }
     public void PlaySFXEnemy(EnemySFX sfxType)
     {
-        audioEnemySfx.PlayOneShot(enemysfxs[(int)sfxType]);
+        if(!audioEnemySfx.isPlaying)
+            audioEnemySfx.PlayOneShot(enemysfxs[(int)sfxType]);
     }
     public void PlaySFX(SFX sfxType)
     {

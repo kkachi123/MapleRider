@@ -34,7 +34,7 @@ public class EliteProfile : MonoBehaviour
     public void Init(int index)
     {
         animator.SetFloat("Speed", 10.0f);
-        hp = 300 * GameManager.Instance.level;
+        hp = 100 * GameManager.Instance.level;
         maxHp = hp;
         moveSpeed = 100.0f * GameManager.Instance.level;
         power = 10.0f * GameManager.Instance.level;
@@ -71,9 +71,9 @@ public class EliteProfile : MonoBehaviour
     }
     public bool IsShooting()
     {
-        Instantiate(bulletPrefab, shootPoint.transform.position, shootPoint.transform.rotation);
-        bulletPrefab.GetComponent<ElitBullet>().player = player;
-        bulletPrefab.GetComponent<ElitBullet>().power = power;
+        GameObject bullet = Instantiate(bulletPrefab, shootPoint.transform.position, shootPoint.transform.rotation);
+        bullet.GetComponent<ElitBullet>().player = player;
+        bullet.GetComponent<ElitBullet>().power = power;
 
         bulletCount--;
         if (bulletCount <= 0)

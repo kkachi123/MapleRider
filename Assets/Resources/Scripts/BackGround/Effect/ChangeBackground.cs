@@ -15,9 +15,13 @@ public class ChangeBackground : MonoBehaviour
 
     [Header("Boss")]
     [SerializeField] GameObject[] bosses;
+
+    [Header("Player")]
+    [SerializeField] GameObject player;
     Vector3 startPos;
     void OnEnable()
     {
+        player.GetComponent<CircleCollider2D>().enabled = false;
         startPos = fadeScreen.transform.position;
         StartCoroutine(FadeIn());
     }
@@ -56,5 +60,6 @@ public class ChangeBackground : MonoBehaviour
         SoundManager.sInstance.StopSFX();
         fadeScreen.transform.position = startPos;
         this.gameObject.SetActive(false);
+        player.GetComponent<CircleCollider2D>().enabled = true;
     }
 }

@@ -7,9 +7,8 @@ public class SpeedEnemy2D : Enemy2D
 {
     public GameObject player;
     Vector2 shootDirection;
-    protected override void Start()
+    void Start()
     {
-        base.Start();
         SettingDirection();
     }
     protected override void Move_2D()
