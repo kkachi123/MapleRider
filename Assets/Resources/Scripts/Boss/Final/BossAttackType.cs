@@ -1,0 +1,11 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public enum BossAttackType
+{
+    None,
+    Shoot,
+    Razer,
+    EliteSummon,
+}

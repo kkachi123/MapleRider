@@ -6,7 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class GameControl2D : MonoBehaviour
 {
-    [Header("Score Panel")]
+    [Header("Score,HP Panel")]
+    [SerializeField] GameObject hpUI;
     [SerializeField] GameObject textScreen;
     [SerializeField] TextMeshProUGUI levelText;
     [SerializeField] TextMeshProUGUI scoreText;
@@ -26,6 +27,8 @@ public class GameControl2D : MonoBehaviour
     {
         timer = 0;
         deltaTime = 0;
+        hpUI.SetActive(true);
+        textScreen.SetActive(true);
         resultUI.SetActive(false);
         warningScreen.SetActive(false);
         SoundManager.sInstance.PlayBGM(SoundManager.BGM.Game);
@@ -38,6 +41,7 @@ public class GameControl2D : MonoBehaviour
                 SoundManager.sInstance.PlaySFX(SoundManager.SFX.ButtonClick);
             finalScore.text = "Score : " + GameManager.Instance.score;
             textScreen.SetActive(false);
+            hpUI.SetActive(false);
             resultUI.SetActive(true);
         }
         else

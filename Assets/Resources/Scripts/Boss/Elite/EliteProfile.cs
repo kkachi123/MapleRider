@@ -97,6 +97,7 @@ public class EliteProfile : MonoBehaviour
     {
         yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
         gameObject.SetActive(false);
+        bulletCount = maxBulletCount;
         GameManager.Instance.elitCount--;
         GameManager.Instance.score += 200;
     }

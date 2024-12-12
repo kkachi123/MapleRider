@@ -21,6 +21,7 @@ public class LobbyControl : MonoBehaviour
         GameManager.Instance.level = 1;
         GameManager.Instance.bGameOver = false;
         GameManager.Instance.bossPhase = 0;
+        GameManager.Instance.elitCount = 0;
         SoundManager.sInstance.PlaySFX(SoundManager.SFX.MoveScene);
         LoadingSceneManager.LoadScene("Play");
     }

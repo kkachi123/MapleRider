@@ -76,8 +76,14 @@ public class SoundManager : MonoBehaviour
     }
     public void PlaySFXEnemy(EnemySFX sfxType)
     {
-        if(!audioEnemySfx.isPlaying)
+        if(sfxType == EnemySFX.BossAttackStand || sfxType == EnemySFX.BossRazer)
+        {
+            if(!audioEnemySfx.isPlaying)
+                audioEnemySfx.PlayOneShot(enemysfxs[(int)sfxType]);
+        }
+        else
             audioEnemySfx.PlayOneShot(enemysfxs[(int)sfxType]);
+
     }
     public void PlaySFX(SFX sfxType)
     {

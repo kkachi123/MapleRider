@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ChangeBackground : MonoBehaviour
+public class ChangePhase : MonoBehaviour
 {
     [Header("Background")]
     [SerializeField] GameObject[] backGrounds;

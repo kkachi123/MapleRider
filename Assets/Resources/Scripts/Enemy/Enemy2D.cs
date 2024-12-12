@@ -1,14 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.Mathematics;
 using UnityEngine;
 
 public class Enemy2D : MonoBehaviour
 {
     protected Rigidbody2D rb;
-    float yCosPlus = 1.0f;
-    float ySpeed = 3.0f;
+    float yCosPlus = 5.0f;
+    float ySpeed = 10.0f;
     float yCos = 0.0f;
+    bool isSin = false;
 
     public float speed = 200.0f;
     public float hp = 10.0f;
@@ -17,6 +17,7 @@ public class Enemy2D : MonoBehaviour
     public GameObject shotEffectPrefab;
     protected virtual void Awake()
     {
+        isSin = Random.Range(0, 2) == 0 ? true : false;
         rb = GetComponent<Rigidbody2D>();
     }
     protected void Update()
@@ -44,10 +45,15 @@ public class Enemy2D : MonoBehaviour
     protected virtual void Move_2D()
     {
         Vector2 pos = rb.transform.position;
+        float courseMove = 0.0f;
+        if(isSin)
+            courseMove = Mathf.Sin(yCos);
+        else
+            courseMove = Mathf.Cos(yCos);
         pos = new Vector2(
-            pos.x + (-1 * speed * Time.deltaTime),
-            pos.y + Mathf.Sin(yCos) * ySpeed
-            );
+                pos.x + (-1 * speed * Time.deltaTime),
+                pos.y + courseMove * ySpeed
+                );
         yCos += yCosPlus * Time.deltaTime;
         rb.MovePosition(pos);
     }

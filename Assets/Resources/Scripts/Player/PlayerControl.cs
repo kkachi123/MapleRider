@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -32,6 +33,8 @@ public class PlayerControl : MonoBehaviour
     public float hpRecoverTime = 3.0f;
     float maxHpRecoverTime;
     float speed = 300.0f;
+    // fadeTime;
+    float time = 0.0f;
 
     void Awake()
     {
@@ -182,7 +185,8 @@ public class PlayerControl : MonoBehaviour
         for (int i = 0; i < playerImages.Length; i++)
         {
             Color playerAlpha = playerImages[i].color;
-            playerAlpha.a--;
+            time += Time.deltaTime / 2;
+            playerAlpha.a = Mathf.Lerp(1, 0, time);
             playerImages[i].color = playerAlpha;
         }
         if (playerImages[0].color.a <= 0)

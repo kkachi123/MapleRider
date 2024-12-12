@@ -11,6 +11,7 @@ public class EnemySpawner : MonoBehaviour
     public float range = 200.0f;
     float interval;
     int preLevel = 1;
+
     IEnumerator Start()
     {
         interval = firstInterval;
@@ -29,7 +30,10 @@ public class EnemySpawner : MonoBehaviour
                     enemyIndex = 1;
                 GameObject enemy = Instantiate(enemyPrefab[enemyIndex], pos, transform.rotation);
                 if(enemyIndex == 1)
+                {
                     enemy.GetComponent<SpeedEnemy2D>().player = player;
+                    enemy.GetComponent<SpeedEnemy2D>().speed = 500.0f * GameManager.Instance.level;
+                }
                 if (GameManager.Instance.score > 500)
                 {
                     interval = firstInterval / (GameManager.Instance.score / 500) ;
@@ -38,16 +42,17 @@ public class EnemySpawner : MonoBehaviour
                 }
             }
             if (GameManager.Instance.score >= 1000 * preLevel && GameManager.Instance.score <= 4000)
-                ElitSpawn();
+            {
+                int maxEliteCount = GameManager.Instance.score / 1000;
+                EliteSpawn(maxEliteCount);
+            }
             else if(GameManager.Instance.score > 4000)
                 GameManager.Instance.bossPhase++;
             
         }
     }
-
-    void ElitSpawn()
+    public void EliteSpawn(int maxEliteCount)
     {
-        int maxEliteCount = GameManager.Instance.score / 1000;
         if (maxEliteCount > enemyElite.Length)
             maxEliteCount = enemyElite.Length;
         for (int i = 0; i < enemyElite.Length; i++)

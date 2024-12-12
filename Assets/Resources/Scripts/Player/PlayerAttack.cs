@@ -54,7 +54,7 @@ public class PlayerAttack : MonoBehaviour
     }
     void Active()
     {
-        if (Input.GetMouseButtonDown(0) && !shootBullet)
+        if (Input.GetMouseButton(0) && !shootBullet)
         {
             SoundManager.sInstance.PlaySFXPlayer(SoundManager.PlayerSFX.Attack);
             Instantiate(bulletPrefab, shootPoint.transform.position, shootPoint.transform.rotation);

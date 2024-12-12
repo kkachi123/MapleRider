@@ -21,7 +21,17 @@ public class BossAttack : BossBase
                 }
             }
         }
-        else// if(profile.attackType == BossAttackType.Razer)
+        else if (profile.attackType == BossAttackType.EliteSummon)
+        {
+            deltaTime += Time.deltaTime;
+            if (deltaTime >= 1.0f)
+            {
+                deltaTime = 0.0f;
+                profile.EliteSummon();
+                manager.ChangeState(new BossIdle());
+            }
+        }
+        else //if(profile.attackType == BossAttackType.Razer)
         {
             if (!profile.RazerWarning())
             {

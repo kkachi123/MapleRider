@@ -242,6 +242,7 @@ GameObject:
   m_Component:
   - component: {fileID: 13354021}
   - component: {fileID: 13354022}
+  - component: {fileID: 13354023}
   m_Layer: 0
   m_Name: Razer1W
   m_TagString: Untagged
@@ -257,13 +258,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 13354020}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: -0.37399963, w: 0.9274289}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 164.50183, y: 14, z: 37.07}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0, z: 0}
+  m_LocalScale: {x: 14, y: 164, z: 37.07}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1211878434}
   m_Father: {fileID: 1042319838}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -43.925}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &13354022
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -316,6 +318,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &13354023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13354020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f114a75cfdb9ad449845c09575c63d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  razerNum: 1
+  moveRange: 300
+  moveSpeed: 300
+  isWarning: 0
 --- !u!1 &27728757
 GameObject:
   m_ObjectHideFlags: 0
@@ -879,6 +897,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d262b2d2328cc034189046cb1e4715f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hpUI: {fileID: 915554727}
   textScreen: {fileID: 1966102916}
   levelText: {fileID: 1698471684}
   scoreText: {fileID: 2040762032}
@@ -1843,11 +1862,11 @@ Transform:
   m_GameObject: {fileID: 742769185}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 30, z: 0}
-  m_LocalScale: {x: 3.7255507, y: 3.7255507, z: 3.7255507}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.26611072, y: 0.022647474, z: 0.10050042}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1042319838}
+  m_Father: {fileID: 1639872956}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!114 &742769190
 MonoBehaviour:
@@ -3226,9 +3245,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 742769188}
-  - {fileID: 1661871508}
-  - {fileID: 1211878434}
   - {fileID: 1639872956}
   - {fileID: 13354021}
   - {fileID: 1901389685}
@@ -3639,7 +3655,7 @@ GameObject:
   - component: {fileID: 1211878435}
   - component: {fileID: 1211878436}
   m_Layer: 0
-  m_Name: Razer2
+  m_Name: Razer1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3726,13 +3742,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1211878430}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0.36650118, w: 0.9304176}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.7255507, y: 3.7255507, z: 3.7255507}
+  m_LocalScale: {x: 0.2581258, y: 0.02277674, z: 0.10050041}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1042319838}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 43}
+  m_Father: {fileID: 13354021}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!114 &1211878435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4626,6 +4642,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1639872956}
   - component: {fileID: 1639872957}
+  - component: {fileID: 1639872958}
   m_Layer: 0
   m_Name: Razer0W
   m_TagString: Untagged
@@ -4642,10 +4659,11 @@ Transform:
   m_GameObject: {fileID: 1639872955}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 30, z: 0}
-  m_LocalScale: {x: 164.50183, y: 14, z: 37.07}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 164.50183, y: 14, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 742769188}
   m_Father: {fileID: 1042319838}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1639872957
@@ -4700,6 +4718,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1639872958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639872955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f114a75cfdb9ad449845c09575c63d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  razerNum: 0
+  moveRange: 200
+  moveSpeed: 300
+  isWarning: 0
 --- !u!1 &1661871504
 GameObject:
   m_ObjectHideFlags: 0
@@ -4714,7 +4748,7 @@ GameObject:
   - component: {fileID: 1661871509}
   - component: {fileID: 1661871510}
   m_Layer: 0
-  m_Name: Razer1
+  m_Name: Razer2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4801,13 +4835,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1661871504}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.37399793, w: 0.92742956}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.7255507, y: 3.7255507, z: 3.7255507}
+  m_LocalScale: {x: 0.25812465, y: 0.022707261, z: 0.10050041}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1042319838}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -43.925}
+  m_Father: {fileID: 1901389685}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!114 &1661871509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5455,6 +5489,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1901389685}
   - component: {fileID: 1901389686}
+  - component: {fileID: 1901389687}
   m_Layer: 0
   m_Name: Razer2W
   m_TagString: Untagged
@@ -5472,9 +5507,10 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.36650118, w: 0.9304176}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 164.50183, y: 14, z: 37.07}
+  m_LocalScale: {x: 164.50183, y: 14, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1661871508}
   m_Father: {fileID: 1042319838}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 43}
 --- !u!212 &1901389686
@@ -5529,6 +5565,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1901389687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901389684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f114a75cfdb9ad449845c09575c63d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  razerNum: 2
+  moveRange: 250
+  moveSpeed: 300
+  isWarning: 0
 --- !u!4 &1934870608 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1542550329994040655, guid: 5bf7919a220199c47822d08cb0892422, type: 3}
@@ -6632,18 +6684,21 @@ MonoBehaviour:
   - {fileID: 2133546439}
   movePosIndex: 0
   attackType: 0
+  power: 30
   bulletPrefab: {fileID: 4450831646672705152, guid: bd90e4dc2a3f4394983d3fb373bf95b6, type: 3}
   shootPoint: {fileID: 5818838974638401114}
+  bulletCount: 15
   Razers:
   - {fileID: 742769185}
-  - {fileID: 1661871504}
   - {fileID: 1211878430}
+  - {fileID: 1661871504}
   RazersWarningPrefab:
   - {fileID: 1639872955}
   - {fileID: 13354020}
   - {fileID: 1901389684}
-  bulletCount: 10
-  power: 30
+  razersCount: 0
+  enemySpawner: {fileID: 1030909716}
+  summonEliteCount: 0
 --- !u!114 &7850340874045548924
 MonoBehaviour:
   m_ObjectHideFlags: 0
