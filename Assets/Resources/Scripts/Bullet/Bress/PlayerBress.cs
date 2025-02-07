@@ -21,7 +21,8 @@ public class PlayerBress : MonoBehaviour
         }
         else if(collision.tag == "Boss")
         {
-            collision.GetComponent<BossProfile>().hp -= power;
+            //collision.GetComponent<BossProfile>().hp -= power;
+            collision.GetComponent<Blackboard>().hp -= power;
             Instantiate(shotEffectPrefab, collision.transform.position, collision.transform.rotation);
         }
     }

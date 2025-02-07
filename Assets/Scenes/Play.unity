@@ -5765,6 +5765,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
   isAlive: 1
+  doPattern: 0
   hp: 300
   maxHp: 0
   isFade: 1
@@ -5813,7 +5814,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64784017f9f4ebb419bed780fe6b78b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  behaviorTree: {fileID: 11400000, guid: 3a97dd3f3bd60974da67364d48951018, type: 2}
+  SCbehaviorTree: {fileID: 11400000, guid: 3a97dd3f3bd60974da67364d48951018, type: 2}
 --- !u!95 &1936732014
 Animator:
   serializedVersion: 5

@@ -8,4 +8,5 @@ public enum BossAttackType
     Shoot,
     Razer,
     EliteSummon,
+    Max
 }

@@ -1,5 +1,37 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8262317732393652732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d9a52e6d6998eb468da5673e6b331df, type: 3}
+  m_Name: SelectorNode
+  m_EditorClassIdentifier: 
+  guid: f6aa99f82f6a7f148a67d65d871cb1f2
+  position: {x: 815.88, y: 289}
+  children:
+  - {fileID: -3554218889193216539}
+  - {fileID: 8256689206873414601}
+--- !u!114 &-8161167780220112603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 839ef1520d9c4d040b760421c6851674, type: 3}
+  m_Name: ActionNode
+  m_EditorClassIdentifier: 
+  guid: 7525de57e88ebf04ebaa67de0892e853
+  position: {x: 1184.88, y: 527}
+  methodName: EliteSummon
 --- !u!114 &-6864840312015837649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13,7 +45,7 @@ MonoBehaviour:
   m_Name: ActionNode
   m_EditorClassIdentifier: 
   guid: 621e3da445e61d548bdeff256f44b134
-  position: {x: 226, y: -164}
+  position: {x: 1184.88, y: 289}
   methodName: Fading
 --- !u!114 &-3554218889193216539
 MonoBehaviour:
@@ -28,9 +60,57 @@ MonoBehaviour:
   m_Name: IfDecoratorNode
   m_EditorClassIdentifier: 
   guid: fb5a2ea394e914e40a1332e3aa4f082f
-  position: {x: 25, y: -164}
+  position: {x: 983.88, y: 289}
   child: {fileID: -6864840312015837649}
-  methodName: isFade
+  methodName: IsFade
+--- !u!114 &-2538162690486161868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 839ef1520d9c4d040b760421c6851674, type: 3}
+  m_Name: ActionNode
+  m_EditorClassIdentifier: 
+  guid: 486ba2d49716c084bbc9367ecd02800b
+  position: {x: 1184.88, y: 650}
+  methodName: Razer
+--- !u!114 &-2522140003600759152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94cc9a9599081764ea25a4eea72a0365, type: 3}
+  m_Name: IfDecoratorNode
+  m_EditorClassIdentifier: 
+  guid: b2590ef7dfd808d4d9134efbea0f720f
+  position: {x: 643.88, y: 74}
+  child: {fileID: 5576634105659927359}
+  methodName: IsAlive
+--- !u!114 &-568254699544882496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d9a52e6d6998eb468da5673e6b331df, type: 3}
+  m_Name: SelectorNode
+  m_EditorClassIdentifier: 
+  guid: f3e64a691e37a3e4690a283fc70e477f
+  position: {x: 460.88, y: 187}
+  children:
+  - {fileID: -2522140003600759152}
+  - {fileID: 6606029559549372779}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50,6 +130,29 @@ MonoBehaviour:
   - {fileID: 8832194141242187122}
   - {fileID: -3554218889193216539}
   - {fileID: -6864840312015837649}
+  - {fileID: -2522140003600759152}
+  - {fileID: 5576634105659927359}
+  - {fileID: -568254699544882496}
+  - {fileID: -8262317732393652732}
+  - {fileID: 3355678471341067176}
+  - {fileID: 8256689206873414601}
+  - {fileID: -8161167780220112603}
+  - {fileID: -2538162690486161868}
+--- !u!114 &3355678471341067176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 839ef1520d9c4d040b760421c6851674, type: 3}
+  m_Name: ActionNode
+  m_EditorClassIdentifier: 
+  guid: a3dec7e41657f05489d23e3531b9aa97
+  position: {x: 1184.88, y: 410}
+  methodName: Shooting
 --- !u!114 &5021886367377401503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63,8 +166,23 @@ MonoBehaviour:
   m_Name: RootNode
   m_EditorClassIdentifier: 
   guid: c19998e7cbb46e443acad73bfd081c45
-  position: {x: -317.32, y: -282}
-  child: {fileID: 6606029559549372779}
+  position: {x: 296.88, y: 187}
+  child: {fileID: -568254699544882496}
+--- !u!114 &5576634105659927359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 839ef1520d9c4d040b760421c6851674, type: 3}
+  m_Name: ActionNode
+  m_EditorClassIdentifier: 
+  guid: dc5cd1b7938993747845a20a0bf293fc
+  position: {x: 815.88, y: 74}
+  methodName: Die
 --- !u!114 &6606029559549372779
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78,10 +196,28 @@ MonoBehaviour:
   m_Name: SelectorNode
   m_EditorClassIdentifier: 
   guid: 20e7ee6e780c68e409f0d5ea0c24f464
-  position: {x: -147, y: -282}
+  position: {x: 643.88, y: 187}
   children:
   - {fileID: 8832194141242187122}
-  - {fileID: -3554218889193216539}
+  - {fileID: -8262317732393652732}
+--- !u!114 &8256689206873414601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d9a52e6d6998eb468da5673e6b331df, type: 3}
+  m_Name: SelectorNode
+  m_EditorClassIdentifier: 
+  guid: d5a3bdd6ee2b223438c80c67a2b9b271
+  position: {x: 983.88, y: 410}
+  children:
+  - {fileID: 3355678471341067176}
+  - {fileID: -8161167780220112603}
+  - {fileID: -2538162690486161868}
 --- !u!114 &8832194141242187122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95,5 +231,5 @@ MonoBehaviour:
   m_Name: ActionNode
   m_EditorClassIdentifier: 
   guid: 02eb4f5d649c5294386cd01d66f0bbfb
-  position: {x: 25, y: -282}
+  position: {x: 815.88, y: 187}
   methodName: Idle

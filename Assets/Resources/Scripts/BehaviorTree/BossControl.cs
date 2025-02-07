@@ -44,12 +44,14 @@ public class BossControl : MonoBehaviour
         if (GameManager.Instance.bossPhase >= 3 && GameManager.Instance.bossPhase < 5)
         {
             blackboard.summonEliteCount++;
-            //blackboard.EliteSummon();
+            blackboard.eliteSummoner.EliteSpawn(blackboard.summonEliteCount);
         }
 
         if (GameManager.Instance.bossPhase == 5)
         {
             hpUI.SetActive(false);
+            blackboard.time = 0.0f;
+            blackboard.isAlive = false;
         }
     }
 }

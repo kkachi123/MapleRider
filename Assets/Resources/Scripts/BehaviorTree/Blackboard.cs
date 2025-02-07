@@ -5,6 +5,7 @@ public class Blackboard : MonoBehaviour
 
     [Header("Status")]
     public bool isAlive = true;
+    public bool doPattern = false;
     public float hp = 800.0f;
     [HideInInspector] public float maxHp;
 
