@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6864840312015837649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 839ef1520d9c4d040b760421c6851674, type: 3}
+  m_Name: ActionNode
+  m_EditorClassIdentifier: 
+  guid: 621e3da445e61d548bdeff256f44b134
+  position: {x: 226, y: -164}
+  methodName: Fading
+--- !u!114 &-3554218889193216539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94cc9a9599081764ea25a4eea72a0365, type: 3}
+  m_Name: IfDecoratorNode
+  m_EditorClassIdentifier: 
+  guid: fb5a2ea394e914e40a1332e3aa4f082f
+  position: {x: 25, y: -164}
+  child: {fileID: -6864840312015837649}
+  methodName: isFade
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d03d2f3aadfe0b04f984aa26255cfb83, type: 3}
+  m_Name: BossBehaviorTree
+  m_EditorClassIdentifier: 
+  rootNode: {fileID: 5021886367377401503}
+  nodes:
+  - {fileID: 5021886367377401503}
+  - {fileID: 6606029559549372779}
+  - {fileID: 8832194141242187122}
+  - {fileID: -3554218889193216539}
+  - {fileID: -6864840312015837649}
+--- !u!114 &5021886367377401503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b059f52c5ea184cafd0415df2504a3, type: 3}
+  m_Name: RootNode
+  m_EditorClassIdentifier: 
+  guid: c19998e7cbb46e443acad73bfd081c45
+  position: {x: -317.32, y: -282}
+  child: {fileID: 6606029559549372779}
+--- !u!114 &6606029559549372779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d9a52e6d6998eb468da5673e6b331df, type: 3}
+  m_Name: SelectorNode
+  m_EditorClassIdentifier: 
+  guid: 20e7ee6e780c68e409f0d5ea0c24f464
+  position: {x: -147, y: -282}
+  children:
+  - {fileID: 8832194141242187122}
+  - {fileID: -3554218889193216539}
+--- !u!114 &8832194141242187122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 839ef1520d9c4d040b760421c6851674, type: 3}
+  m_Name: ActionNode
+  m_EditorClassIdentifier: 
+  guid: 02eb4f5d649c5294386cd01d66f0bbfb
+  position: {x: 25, y: -282}
+  methodName: Idle

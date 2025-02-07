@@ -21,7 +21,8 @@ public class PlayerBullet : BulletBase
         else if(collision.tag == "Boss")
         {
             Destroy(gameObject);
-            collision.GetComponent<BossProfile>().hp -= power;
+            //collision.GetComponent<BossProfile>().hp -= power;
+            collision.GetComponent<Blackboard>().hp -= power;
             Instantiate(shotEffectPrefab, transform.position, transform.rotation);
         }
     }
