@@ -8,9 +8,10 @@ public class Blackboard : MonoBehaviour
     public bool doPattern = false;
     public float hp = 800.0f;
     [HideInInspector] public float maxHp;
+    public BossAttackType attackType = BossAttackType.None;
 
     [Header("Fade")]
-    [HideInInspector] public bool isFade = true;
+    public bool isFade = true;
     [HideInInspector] public bool preFade = false;
     [HideInInspector] public SpriteRenderer bossImage;
     public float fadeTime = 2.0f;
@@ -20,7 +21,6 @@ public class Blackboard : MonoBehaviour
     [HideInInspector] public Vector3 movePos;
 
     [Header("Attack")]
-    [HideInInspector] public BossAttackType attackType = BossAttackType.None;
     public float power = 30.0f;
 
     [Header("Bullet")]
